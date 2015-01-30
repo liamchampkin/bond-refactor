@@ -4,6 +4,9 @@ $grey:										#dadada;
 $dark-grey:								#414242;
 $light-grey:							#e6e6e6;
 $black:										#000;
+$white:										#fff;
+
+$oup-blue:								#000066;
 
 //secondary-colours
 $teal:										#00A4B9;
@@ -11,7 +14,13 @@ $red:											#EE1941;
 $green:										#ADBE25;
 $yellow:									#FDB813;
 
-$oup-blue:								#000066;
+//subjects
+$english:									$teal;
+$maths:										$red;
+$verbal:									$green;
+$non-verbal:							$yellow;
+
+
 
 // typography
 $font-stack:							Helvetica,sans-serif;
@@ -22,10 +31,19 @@ $grey-text:								$dark-grey;
 $border-color: 						$grey;
 $border-radius:						15px;
 
+$link-color:							#2749AB;
+$link-hover:							darken($link-color, 5%);
+
+$result-box-colour: 			$green;
+
 //buttons
 $primary-button-color:		$dark-grey;
+$primary-button-hover:		$black;
 $secondar-button-color:   $light-grey;
+$secondar-button-hover:   darken($secondar-button-color, 5%);
+
 
 $body-backround:					#FBFBFB;
 
-$footer-background:       $oup-blue;
+$footer-background:       $oup-blue; 
+$footer-link:							$white;

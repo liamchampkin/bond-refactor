@@ -87,21 +87,6 @@ table.coursePracticeAndMockResults .homequiztable3 div, table.coursePracticeAndM
   margin-left: 10px;
 }
 
-#courseJumpForm {
-  vertical-align: middle;
-}
-#courseJumpForm select {
-  float: left;
-}
-#courseJumpButton {
-  background: url(images/course_jump_button.png);
-}
-.courseJump {
-  float: right;
-  width: 200px;
-  height:32px;
-  margin-top: -27px;
-}
 
 .mockTestButton {
   float: left;
@@ -503,39 +488,6 @@ body .container{
   text-decoration: underline;
 }
 
-#pageFooter {
-  font-size: 1em;
-  background-color: #000066;
-  padding: 10px;
-  height: 150px;
-}
-
-#pageFooter #footerLeft {
-  float: left;
-  width: 18%;
-  padding: 0;
-  margin-top: 30px;
-}
-
-#pageFooter #footerRight {
-  float: left;
-  width: 82%;
-  margin-bottom: 20px;
-  text-align: left;
-  margin-top: 69px;
-}
-
-#pageFooter #footerRight2 {
-    padding-top: 0;
-    float: right;
-}
-
-#footerLeft .oxford-logo {
-    margin-top: 36px;
-    padding: 30px; /*about the same width as Oxford O*/
-    width: 74%;
-}
-
 #footerRight2 .show-ssl-cert {
   text-align: center;
   margin: 5px 0;
@@ -546,13 +498,6 @@ body .container{
   text-align: center;
   margin: 5px 0;
   padding: 0;
-}
-
-#footerRight2 .about-ssl-cert a {
-  color: #000000;
-  text-decoration: none;
-  font: bold 7px verdana,sans-serif;
-  letter-spacing: .5px;
 }
 
 .append-1 {
@@ -1209,31 +1154,7 @@ a.english {
   float: left;
 }
 
-ul.joomla-nav-news{
-  margin: 0;
-  padding: 0;
-}
 
-.joomla-nav-news li{
-  list-style-type: none;
-  color: transparent; /*this is a hack to get rid of the strange hardcoded elipses*/
-}
-
-.phome-promotions-news-link {
-    margin-bottom: -18px; /*as the elipses is still there I have to use a negative margin LS*/
-}
-
-.joomla-nav-news li a {
-  background-color: #e6e6e6;
-  border-bottom: 0 none;
-  display: block;
-  padding: 1em;
-  color: #424242; /*grey text*/
-}
-
-.joomla-nav-news li a:hover {
-  background-color: #D2D2D2;
-}
 
 .try-it .tick_list {
   background-color: #ECF2F3;
@@ -1318,25 +1239,6 @@ h2.news_header {
   text-align: center;
   vertical-align: middle;
   width: 15%;
-}
-
-.dot_on, .dot_off {
-  float: left;
-  height: 28px;
-  margin-top: 6px;
-  width: 28px;
-  text-align: center;
-  vertical-align: middle;
-}
-
-.dot_off {
-  background: url("images/dot_off.png") repeat scroll 0 0 transparent;
-  color: #9CC3EF;
-}
-
-.dot_on {
-  background: url("images/dot_on.png") repeat scroll 0 0 transparent;
-  color: #0065CE;
 }
 
 .no_Result {
@@ -1539,13 +1441,6 @@ p.asterisk {
   vertical-align: middle;
 }
 
-.child-home td.homequiztable1 {
-  font-size: 1.3em;
-  font-weight: bold;
-  padding-left: 10px;
-  width: 20%;
-}
-
 .child-home td.homequiztable2 {
   width: 10%;
 }
@@ -1563,17 +1458,6 @@ p.asterisk {
   border-bottom: 3px solid #E9ECED;
   cursor: pointer;
   height: 70px;
-}
-
-.display_Result {
-  color: #FFFFFF;
-  float: left;
-  font-weight: bold;
-  padding: 6px 0;
-  text-align: center;
-  width: 60px;
-  background-color: #ADBE25;
-  border-radius: 10px;
 }
 
 dl#system-message {

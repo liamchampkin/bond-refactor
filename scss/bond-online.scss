@@ -1,0 +1,40 @@
+.child-home td.homequiztable1 {
+  font-size: 1.1em;
+  font-weight: normal;
+  padding-left: 10px;
+  width: 20%;
+}
+
+.dot_on, .dot_off {
+  float: left;
+  margin-top: 6px;
+  text-align: center;
+  vertical-align: middle;
+	border-radius: 50%;
+}
+
+.dot_off {
+  border: 1px solid $blue;
+  color: transparent;
+  width: 26px;
+  height: 26px;
+}
+
+.dot_on {
+  background-color: $blue;
+  color: transparent;
+  width: 28px;
+  height: 28px;
+}
+
+.display_Result {
+  color: #FFFFFF;
+  float: left;
+  font-weight: bold;
+  padding: 6px 0;
+  text-align: center;
+  width: 60px;
+  background-color: $result-box-color;
+  border-radius: 10px;
+  margin-left: 10px;
+}

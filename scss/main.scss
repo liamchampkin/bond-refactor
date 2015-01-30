@@ -222,7 +222,7 @@ ul.subjects.colours li a{
 }
 
 li.red.color-box{
-  background-color: #ee1941;
+  background-color: $maths;
 }
 
 li.grey.color-box{
@@ -241,7 +241,7 @@ li.blue.color-box,
 li.english.subject-box  a,
 li.teal.color-box,
 .english-background{
-  background-color: #00A4B9;
+  background-color: $english;
 }
 
 .english-background.high-light li,
@@ -253,13 +253,39 @@ li.teal.color-box,
 li.verbal.subject-box a,
 li.green.color-box,
 .verbal-background{
-  background-color: #ADBE25;
+  background-color: $verbal;
 }
 
 li.non-verbal.subject-box a,
 li.yellow.color-box,
 .non-verbal-background{
-  background-color: #FDB813;
+  background-color: $non-verbal;
+}
+
+ul.joomla-nav-news{
+  margin: 0;
+  padding: 0;
+}
+
+.joomla-nav-news li{
+  list-style-type: none;
+  color: transparent; /*this is a hack to get rid of the strange hardcoded elipses*/
+}
+
+.phome-promotions-news-link {
+    margin-bottom: -18px; /*as the elipses is still there I have to use a negative margin LS*/
+}
+
+.joomla-nav-news li a {
+  background-color: $secondar-button-color;
+  border-bottom: 0 none;
+  display: block;
+  padding: 1em;
+  color: #424242; /*grey text*/
+}
+
+.joomla-nav-news li a:hover {
+  background-color: $secondar-button-hover;
 }
 
 .full-width-header{
@@ -276,6 +302,39 @@ li.yellow.color-box,
   color: white;
 }
 
+#pageFooter {
+  font-size: 1em;
+  background-color: $footer-background;
+  padding: 10px;
+  height: 150px;
+}
+
+#pageFooter #footerLeft {
+  float: left;
+  width: 18%;
+  padding: 0;
+  margin-top: 30px; 
+}
+
+#pageFooter #footerRight {
+  float: left;
+  width: 82%;
+  margin-bottom: 20px;
+  text-align: left;
+  margin-top: 69px;
+}
+
+#pageFooter #footerRight2 {
+    padding-top: 0;
+    float: right;
+}
+
+#footerLeft .oxford-logo {
+    margin-top: 36px;
+    padding: 30px; /*about the same width as Oxford O*/
+    width: 74%;
+}
+
 #pageFooter ul {
   margin: 0 0 10px;
   padding: 0;
@@ -288,5 +347,15 @@ li.yellow.color-box,
 }
 
 #pageFooter ul li a {
-  color: #fff;
+  color: $footer-link;
+}
+
+#courseJumpForm {
+  vertical-align: middle;
+}
+#courseJumpForm select {
+  float: left;
+}
+.courseJump {
+  float: right;
 }

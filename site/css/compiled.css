@@ -108,21 +108,6 @@ table.coursePracticeAndMockResults .homequiztable3 div, table.coursePracticeAndM
 .icon {
   margin-left: 10px; }
 
-#courseJumpForm {
-  vertical-align: middle; }
-
-#courseJumpForm select {
-  float: left; }
-
-#courseJumpButton {
-  background: url(images/course_jump_button.png); }
-
-.courseJump {
-  float: right;
-  width: 200px;
-  height: 32px;
-  margin-top: -27px; }
-
 .mockTestButton {
   float: left;
   margin-top: 30px; }
@@ -535,35 +520,6 @@ body .container {
 #pageFooter .joomla-nav li a:hover {
   text-decoration: underline; }
 
-#pageFooter {
-  font-size: 1em;
-  background-color: #000066;
-  padding: 10px;
-  height: 150px; }
-
-#pageFooter #footerLeft {
-  float: left;
-  width: 18%;
-  padding: 0;
-  margin-top: 30px; }
-
-#pageFooter #footerRight {
-  float: left;
-  width: 82%;
-  margin-bottom: 20px;
-  text-align: left;
-  margin-top: 69px; }
-
-#pageFooter #footerRight2 {
-  padding-top: 0;
-  float: right; }
-
-#footerLeft .oxford-logo {
-  margin-top: 36px;
-  padding: 30px;
-  /*about the same width as Oxford O*/
-  width: 74%; }
-
 #footerRight2 .show-ssl-cert {
   text-align: center;
   margin: 5px 0;
@@ -573,12 +529,6 @@ body .container {
   text-align: center;
   margin: 5px 0;
   padding: 0; }
-
-#footerRight2 .about-ssl-cert a {
-  color: #000000;
-  text-decoration: none;
-  font: bold 7px verdana,sans-serif;
-  letter-spacing: .5px; }
 
 .append-1 {
   padding-right: 0px; }
@@ -1143,30 +1093,6 @@ a.english {
   width: 600px;
   float: left; }
 
-ul.joomla-nav-news {
-  margin: 0;
-  padding: 0; }
-
-.joomla-nav-news li {
-  list-style-type: none;
-  color: transparent;
-  /*this is a hack to get rid of the strange hardcoded elipses*/ }
-
-.phome-promotions-news-link {
-  margin-bottom: -18px;
-  /*as the elipses is still there I have to use a negative margin LS*/ }
-
-.joomla-nav-news li a {
-  background-color: #e6e6e6;
-  border-bottom: 0 none;
-  display: block;
-  padding: 1em;
-  color: #424242;
-  /*grey text*/ }
-
-.joomla-nav-news li a:hover {
-  background-color: #D2D2D2; }
-
 .try-it .tick_list {
   background-color: #ECF2F3;
   color: #1C4F6C;
@@ -1237,22 +1163,6 @@ h2.news_header {
   text-align: center;
   vertical-align: middle;
   width: 15%; }
-
-.dot_on, .dot_off {
-  float: left;
-  height: 28px;
-  margin-top: 6px;
-  width: 28px;
-  text-align: center;
-  vertical-align: middle; }
-
-.dot_off {
-  background: url("images/dot_off.png") repeat scroll 0 0 transparent;
-  color: #9CC3EF; }
-
-.dot_on {
-  background: url("images/dot_on.png") repeat scroll 0 0 transparent;
-  color: #0065CE; }
 
 .no_Result {
   background: url("images/no_result_bg.png") no-repeat scroll 0 15px transparent;
@@ -1417,12 +1327,6 @@ p.asterisk {
 .child-home .activity.quiz-home {
   vertical-align: middle; }
 
-.child-home td.homequiztable1 {
-  font-size: 1.3em;
-  font-weight: bold;
-  padding-left: 10px;
-  width: 20%; }
-
 .child-home td.homequiztable2 {
   width: 10%; }
 
@@ -1437,16 +1341,6 @@ p.asterisk {
   border-bottom: 3px solid #E9ECED;
   cursor: pointer;
   height: 70px; }
-
-.display_Result {
-  color: #FFFFFF;
-  float: left;
-  font-weight: bold;
-  padding: 6px 0;
-  text-align: center;
-  width: 60px;
-  background-color: #ADBE25;
-  border-radius: 10px; }
 
 dl#system-message {
   width: 75%;
@@ -1577,7 +1471,7 @@ a:link,
   /*overiding from a file I cant find*/ }
 
 a:hover {
-  color: #0070D7; }
+  color: #224096; }
 
 .article-section p a,
 .article-section li a,
@@ -1589,7 +1483,7 @@ a.back-to-top {
 .article-section p a:hover,
 .example p a:hover,
 .article-section li a:hover {
-  border-bottom: 1px solid #0070D7;
+  border-bottom: 1px solid #224096;
   text-decoration: none; }
 
 .article-section a img
@@ -1624,9 +1518,6 @@ a.back-to-top {
   color: white;
   border: 1px solid black; }
 
-.btn:hover {
-  background-color: black; }
-
 .widget .btn {
   display: block;
   font-size: 1.7em;
@@ -1655,7 +1546,7 @@ a.btn.caret-after:after {
 input[type="submit"],
 a.btn-default {
   background: transparent;
-  background-color: #2d2e2e;
+  background-color: #414242;
   border: medium none;
   color: white;
   background-image: none !important;
@@ -1692,7 +1583,7 @@ a.btn-secondary,
 input.bond-register-button,
 input#id_cancel,
 .submitButtonBlue {
-  background-color: #E6E6E6;
+  background-color: #e6e6e6;
   border: none;
   color: #414242;
   cursor: pointer; }
@@ -1703,7 +1594,7 @@ input.bond-register-button:hover,
 input#id_cancel:hover,
 a.btn-secondary:hover,
 .submitButtonBlue:hover {
-  background-color: #dedede; }
+  background-color: #d9d9d9; }
 
 input.bondlogin-button,
 input.bondforgotten-button {
@@ -1729,9 +1620,8 @@ body .hikashop_products_listing .hikashop_search_input_button,
 body #hikashop_address_form_span_iframe .hikashop_cart_input_button {
   background-image: none;
   width: auto !important;
-  background-color: #E6E6E6;
-  color: #424242;
-  /*grey text*/
+  background-color: #e6e6e6;
+  color: #414242;
   font-size: 0.8em;
   border-radius: 5px;
   line-height: 1.5; }
@@ -1744,8 +1634,14 @@ body .hikashop_product_quantity_main .hikashop_cart_input_button:hover,
 body .hikashop_products_listing .hikashop_search_input_button:hover,
 body .example .hikashop_cart_input_button:hover,
 body #hikashop_address_form_span_iframe .hikashop_cart_input_button:hover {
-  background-color: #2D2E2E;
+  background-color: #000;
   color: white; }
+
+#courseJumpButton {
+  background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iTGF5ZXJfMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeD0iMHB4IiB5PSIwcHgiIHdpZHRoPSIyMC41NzFweCIgaGVpZ2h0PSIyMC41NzFweCIgdmlld0JveD0iMCAwIDIwLjU3MSAyMC41NzEiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDIwLjU3MSAyMC41NzEiIHhtbDpzcGFjZT0icHJlc2VydmUiPjxnPjxwYXRoIGZpbGw9IiMwMDUyOUMiIGQ9Ik0xOS4xOTIsNS4xMjNjMC45MTksMS41NzYsMS4zNzksMy4yOTcsMS4zNzksNS4xNjNzLTAuNDYsMy41ODctMS4zNzksNS4xNjNjLTAuOTIsMS41NzYtMi4xNjgsMi44MjQtMy43NDQsMy43NDRjLTEuNTc1LDAuOTE5LTMuMjk3LDEuMzc5LTUuMTYyLDEuMzc5Yy0xLjg2NiwwLTMuNTg4LTAuNDYtNS4xNjMtMS4zNzljLTEuNTc2LTAuOTE5LTIuODI0LTIuMTY3LTMuNzQzLTMuNzQ0QzAuNDYsMTMuODczLDAsMTIuMTUyLDAsMTAuMjg2czAuNDYtMy41ODcsMS4zOC01LjE2M2MwLjkxOS0xLjU3NiwyLjE2Ny0yLjgyNCwzLjc0My0zLjc0M0M2LjY5OCwwLjQ2LDguNDIsMCwxMC4yODYsMGMxLjg2NSwwLDMuNTg3LDAuNDYsNS4xNjIsMS4zNzlDMTcuMDI0LDIuMjk5LDE4LjI3MiwzLjU0NywxOS4xOTIsNS4xMjN6IE0xNy4yMSwxMC4yODZjMC0wLjI0MS0wLjA4LTAuNDQyLTAuMjQxLTAuNjAzTDE1Ljc1LDguNDY0bC00Ljg0OS00Ljg0OGMtMC4xNi0wLjE2MS0wLjM2MS0wLjI0MS0wLjYwMy0wLjI0MXMtMC40NDEsMC4wOC0wLjYwMywwLjI0MUw4LjQ3OCw0LjgzNGMtMC4xNiwwLjE2MS0wLjI0MSwwLjM2Mi0wLjI0MSwwLjYwM2MwLDAuMjQxLDAuMDgxLDAuNDQyLDAuMjQxLDAuNjAzbDIuNTMxLDIuNTMxSDQuMjg2Yy0wLjIzMiwwLTAuNDM0LDAuMDg1LTAuNjA0LDAuMjU0Yy0wLjE2OSwwLjE3LTAuMjU0LDAuMzcxLTAuMjU0LDAuNjAzdjEuNzE0YzAsMC4yMzIsMC4wODUsMC40MzMsMC4yNTQsMC42MDNDMy44NTMsMTEuOTE1LDQuMDU0LDEyLDQuMjg2LDEyaDYuNzIzbC0yLjUzMSwyLjUzMWMtMC4xNywwLjE2OS0wLjI1NCwwLjM3MS0wLjI1NCwwLjYwM2MwLDAuMjMyLDAuMDg0LDAuNDMzLDAuMjU0LDAuNjAzbDEuMjE5LDEuMjE5YzAuMTYxLDAuMTYxLDAuMzYxLDAuMjQxLDAuNjAzLDAuMjQxczAuNDQyLTAuMDgxLDAuNjAzLTAuMjQxbDQuODQ5LTQuODQ4bDEuMjE5LTEuMjE5QzE3LjEzLDEwLjcyOCwxNy4yMSwxMC41MjYsMTcuMjEsMTAuMjg2eiIvPjwvZz48L3N2Zz4=); }
+
+option {
+  font-size: 1.5em; }
 
 .bond-shipping-info p {
   margin: 0 5px; }
@@ -1946,6 +1842,42 @@ span.hikashop_product_name {
 .article_as_module.article_as_module_68,
 .bond-search {
   padding: 1em; }
+
+.child-home td.homequiztable1 {
+  font-size: 1.1em;
+  font-weight: normal;
+  padding-left: 10px;
+  width: 20%; }
+
+.dot_on, .dot_off {
+  float: left;
+  margin-top: 6px;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 50%; }
+
+.dot_off {
+  border: 1px solid #00529C;
+  color: transparent;
+  width: 26px;
+  height: 26px; }
+
+.dot_on {
+  background-color: #00529C;
+  color: transparent;
+  width: 28px;
+  height: 28px; }
+
+.display_Result {
+  color: #FFFFFF;
+  float: left;
+  font-weight: bold;
+  padding: 6px 0;
+  text-align: center;
+  width: 60px;
+  background-color: #ADBE25;
+  border-radius: 10px;
+  margin-left: 10px; }
 
 body, td, li, input, select, p, span, h1, h2, h3, h4 {
   font-family: Helvetica, sans-serif; }
@@ -2226,7 +2158,7 @@ ul.subjects.colours li a {
   border-bottom-left-radius: 15px; }
 
 li.red.color-box {
-  background-color: #ee1941; }
+  background-color: #EE1941; }
 
 li.grey.color-box {
   background-color: #414242; }
@@ -2258,6 +2190,30 @@ li.yellow.color-box,
 .non-verbal-background {
   background-color: #FDB813; }
 
+ul.joomla-nav-news {
+  margin: 0;
+  padding: 0; }
+
+.joomla-nav-news li {
+  list-style-type: none;
+  color: transparent;
+  /*this is a hack to get rid of the strange hardcoded elipses*/ }
+
+.phome-promotions-news-link {
+  margin-bottom: -18px;
+  /*as the elipses is still there I have to use a negative margin LS*/ }
+
+.joomla-nav-news li a {
+  background-color: #e6e6e6;
+  border-bottom: 0 none;
+  display: block;
+  padding: 1em;
+  color: #424242;
+  /*grey text*/ }
+
+.joomla-nav-news li a:hover {
+  background-color: #d9d9d9; }
+
 .full-width-header {
   margin: -30px -30px 30px;
   /*same as article padding*/
@@ -2270,6 +2226,35 @@ li.yellow.color-box,
 .full-width-header p {
   color: white; }
 
+#pageFooter {
+  font-size: 1em;
+  background-color: #000066;
+  padding: 10px;
+  height: 150px; }
+
+#pageFooter #footerLeft {
+  float: left;
+  width: 18%;
+  padding: 0;
+  margin-top: 30px; }
+
+#pageFooter #footerRight {
+  float: left;
+  width: 82%;
+  margin-bottom: 20px;
+  text-align: left;
+  margin-top: 69px; }
+
+#pageFooter #footerRight2 {
+  padding-top: 0;
+  float: right; }
+
+#footerLeft .oxford-logo {
+  margin-top: 36px;
+  padding: 30px;
+  /*about the same width as Oxford O*/
+  width: 74%; }
+
 #pageFooter ul {
   margin: 0 0 10px;
   padding: 0; }
@@ -2281,6 +2266,15 @@ li.yellow.color-box,
 
 #pageFooter ul li a {
   color: #fff; }
+
+#courseJumpForm {
+  vertical-align: middle; }
+
+#courseJumpForm select {
+  float: left; }
+
+.courseJump {
+  float: right; }
 
 @media (max-width: 1202px) {
   /*navigation breakpoint*/

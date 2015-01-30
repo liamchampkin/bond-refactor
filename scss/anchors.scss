@@ -2,22 +2,18 @@ a img {
   border: medium none;
 }
 
-a:visited {
-
-}
-
 a:link,
 .main-left-sidebar .hikashop_subcategories_listing a{
-  color: #2749AB;
+  color: $link-color;
   text-decoration: none;
 }
 
 .hikashop_subcategories_listing a{
-  color: #2749AB !important; /*overiding from a file I cant find*/
+  color: $link-color !important; /*overiding from a file I cant find*/
 }
 
 a:hover {
-  color: #0070D7;
+  color: $link-hover;
 }
 
 .article-section p a,
@@ -31,7 +27,7 @@ a.back-to-top{
 .article-section p a:hover,
 .example p a:hover,
 .article-section li a:hover{
-  border-bottom: 1px solid #0070D7;
+  border-bottom: 1px solid $link-hover;
   text-decoration: none;
 }
 
