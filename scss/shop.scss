@@ -2,6 +2,17 @@
   margin: 0 5px;
 }
 
+h1.bond-shipping-info,
+#hikashop_cart_module h1,
+.bond-search h1{
+  font-size: 1.5em;
+  color: #424242; /*grey text*/
+}
+
+#bond-search label{
+	font-weight: bold;
+}
+
 .bond-shop-right-menu .bond-nav {
   background-color: transparent;
   border: none;
@@ -32,19 +43,19 @@
 }
 
 #hikashop_cart .hikashop_cart_input_button, #hikashop_cart .hikashop_search_input_button {
-    background-image: none;
-    background-color: #00529C; /*blue color*/
-    border: 0 none;
-    color: #ffffff;
-    cursor: pointer;
-    font-weight: bold;
-    height: 33px;
-    margin-bottom: 5px;
-    text-align: center;
-    vertical-align: middle;
-    width: 95% !important; /*overides another important style*/
-    font-size: 1em;
-    border-radius: 5px;
+	background-image: none;
+	background-color: #00529C; /*blue color*/
+	border: 0 none;
+	color: #ffffff;
+	cursor: pointer;
+	font-weight: bold;
+	height: 33px;
+	margin-bottom: 5px;
+	text-align: center;
+	vertical-align: middle;
+	width: 95% !important; /*overides another important style*/
+	font-size: 1em;
+	border-radius: 5px;
 }
 
 #hikashop_cart .hikashop_cart_input_button:hover, #hikashop_cart .hikashop_search_input_button:hover{

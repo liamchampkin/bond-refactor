@@ -555,27 +555,6 @@ body .container{
   letter-spacing: .5px;
 }
 
-#nelsonLogo a {
-  display: block;
-  height: 54px;
-  width: 192px;
-}
-
-#pageFooter ul {
-  margin: 0 0 10px;
-  padding: 0;
-}
-
-#pageFooter ul li {
-  display: inline;
-  list-style-type: none;
-  margin-right: 10px;
-}
-
-#pageFooter ul li a {
-  color: #fff;
-}
-
 .append-1 {
   padding-right: 0px;
 }
@@ -677,19 +656,10 @@ body .container{
   clear: both;
 }
 
-.bond-register-button {
-  background: url("images/btn_register.png") no-repeat scroll 0 0 transparent;
-  border: none;
-  cursor: pointer;
-  height: 33px;
-  width: 134px;
-  /*margin: 0 40%;*/
-}
-
 .summaryTable > tbody {
-    background-color: white;
-    border: 1px solid #dadada;
-    border-radius: 10px;
+  background-color: white;
+  border: 1px solid #dadada;
+  border-radius: 10px;
 }
 
 table.summaryTable .r2_c2 {
@@ -767,91 +737,6 @@ table.summaryTable .r2_c2 {
   width: 950px;
 }
 
-.home-main {
-  /*background: url("/images/bond/11pluslive/home_main_bg3.jpg") no-repeat scroll center 5px transparent;*/
-  background: url("/images/bond/home_main_bg.png") no-repeat scroll center 5px transparent;
-  position: relative;
-  width: 950px;
-  padding-bottom:15px;
-  margin-left:10px;
-}
-
-.home-main p {
-  color: #333333;
-  font-size: 1.2em;
-  margin: 0;
-  padding: 0;
-  clear: both;
-}
-
-.home-main-left {
-  float: left;
-  padding: 80px 0 0 27px;
-  width: 43%;
-}
-
-.home-main-right {
-  background: url("images/home_promo.png") no-repeat scroll 185px 15px transparent;
-  float: right;
-  padding: 5px 0 0 0;
-  width: 51%;
-}
-
-.home-main-right h2 {
-  background: none repeat scroll 0 0 transparent;
-  border: 0 none;
-  float: left;
-  height: 28px;
-  margin: 10px 0 30px;
-  padding: 0;
-  width: 175px;
-}
-
-.home-main-right .parent-log-in {
-  background: url("images/btn_parent_login_bg.png") no-repeat scroll 0 0 transparent;
-  color: #FFFFFF;
-  display: block;
-  font-size: 1.3em;
-  height: 48px;
-  margin: 13px 40px 1px 45px;
-  padding: 3px 0 0;
-  position: absolute;
-  right: 105px;
-  text-align: center;
-  top: 5px;
-  width: 134px;
-}
-
-.home-main-right .log-in {
-  background: url("images/btn_login_bg.png") no-repeat scroll 0 0 transparent;
-  color: #FFFFFF;
-  display: block;
-  font-size: 1.3em;
-  height: 48px;
-  margin: 13px 40px 1px 360px;
-  padding: 3px 0 0;
-  position: absolute;
-  right: -15px;
-  text-align: center;
-  top: 5px;
-  width: 114px;
-}
-
-.home-main-right .log-out {
-  background: url("images/btn_logout_bg.png") no-repeat scroll 0 0 transparent;
-  color: #FFFFFF;
-  display: block;
-  font-size: 1.3em;
-  height: 48px;
-  margin: 13px 40px 1px 360px;
-  padding: 3px 0 0;
-  position: absolute;
-  right: -15px;
-  text-align: center;
-  top: 5px;
-  width: 114px;
-}
-
 a.bond-button {
   display: block;
   margin: 10px 10px 0 10px;
@@ -869,17 +754,6 @@ ul.home-right {
   list-style-type: none;
   margin: 30px 0 0;
   padding: 0;
-}
-
-ul.home-right li {
-  background: url("images/home_tick.png") no-repeat scroll 0 0 transparent;
-  color: #333333;
-  display: block;
-  font-size: 1.3em;
-  margin: 6px 0;
-  padding: 0 0 0 32px;
-  width: 390px;
-  line-height: 1.3em;
 }
 
 .mask {
@@ -1762,13 +1636,6 @@ dl#system-message a {
 .moduletable_related h3 {
   border: none;
   margin: 0.5em;
-}
-
-.main-right-sidebar h1 {
-  color: #57984A;
-  margin-top: 10px;
-  margin-bottom: 13px;  
-  padding: 0;
 }
 
 .main-right-sidebar p.bond-search {

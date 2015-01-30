@@ -33,13 +33,6 @@ h1, h1.green {
   display: none;
 }
 
-h1.bond-shipping-info,
-#hikashop_cart_module h1,
-.bond-search h1{
-  font-size: 2.5vh;
-  color: #424242; /*grey text*/
-}
-
 h2 {
   border: medium none;
   font-size: 2.2em;
@@ -111,11 +104,4 @@ label {
   max-width: 100%;
 }
 
-.full-width-header h1{
-  font-size: 5em;
-}
 
-.full-width-header h1,
-.full-width-header p{
-  color: white;
-}

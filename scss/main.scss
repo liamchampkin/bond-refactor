@@ -275,3 +275,18 @@ li.yellow.color-box,
 .full-width-header p{
   color: white;
 }
+
+#pageFooter ul {
+  margin: 0 0 10px;
+  padding: 0;
+}
+
+#pageFooter ul li {
+  display: inline;
+  list-style-type: none;
+  margin-right: 10px;
+}
+
+#pageFooter ul li a {
+  color: #fff;
+}
