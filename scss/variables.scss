@@ -1,51 +1,31 @@
-//colours
-$blue: #091e8f;
-$light-blue: #ECEEF7; //used this for hover and login background etc
-$dark-blue: #000066; //default font colour
-$button-blue: #DDDDEE;
-$pink: #CC3D7F; //pink highlights
+//primary colours
+$blue:										#00529C;
+$grey:										#dadada;
+$dark-grey:								#414242;
+$light-grey:							#e6e6e6;
+$black:										#000;
 
+//secondary-colours
+$teal:										#00A4B9;
+$red:											#EE1941;
+$green:										#ADBE25;
+$yellow:									#FDB813;
 
-$logo-blue: #17477D;
+$oup-blue:								#000066;
 
-$primary-colour: $dark-blue;
-$secondary-colour: $pink;
+// typography
+$font-stack:							Helvetica,sans-serif;
+$font-color:							$black;
+$grey-text:								$dark-grey;
 
-//colours
-$black: #000;
-$dark-grey: #414141;
-$grey: #EBEBEB;
-$white: #fff;
+//layout
+$border-color: 						$grey;
+$border-radius:						15px;
 
-//main elements
-$body-colour: $white;
-$right-menu: $grey;
-$page-one-colour: $blue;
-$contact-area: darken($page-one-colour, 20);
-$border-line: $grey;
+//buttons
+$primary-button-color:		$dark-grey;
+$secondar-button-color:   $light-grey;
 
-//fonts
-$h1-size: 25px;
-$h2-size: 19px;
-$h3-size: 20px;
-$p-size: 18px;
-$font-stack: Verdana, Arial, sans-serif;
-$line-height: 1.5;
-$link-colour: $pink;
+$body-backround:					#FBFBFB;
 
-
-//widths
-$wrapper-width: 75%;
-$menu-width: 25%;
-
-//heights
-$header-height: 90px;
-
-
-
-// @mixin border-radius($radius) {
-//   -webkit-border-radius: $radius;
-//      -moz-border-radius: $radius;
-//       -ms-border-radius: $radius;
-//           border-radius: $radius;
-// }
+$footer-background:       $oup-blue;

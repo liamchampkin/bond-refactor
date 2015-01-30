@@ -40,14 +40,14 @@
 .registerLink,
 .registration-form table{
   background-color: white;
-  border: 1px solid #dadada;
+  border: 1px solid $border-color;
   margin: 0 auto;
   padding: 2em;
 }
 
 /*register page*/
 th {
-  background-color: #00529c;
+  background-color: $blue;
   color: white;
   padding: 0.5em;
 }
@@ -107,7 +107,7 @@ label#nonmarketing{
 }
 
 .example {
-  border: 1px solid #dadada;
+  border: 1px solid $border-color;
   padding: 2em;
   position: relative;
   background-color: white;
@@ -115,8 +115,8 @@ label#nonmarketing{
 
 .example:after {
   background-color: #FBFBFB; /*same as body colour*/
-  border-bottom: 1px solid #dadada;
-  border-left: 1px solid #dadada;
+  border-bottom: 1px solid $border-color;
+  border-left: 1px solid $border-color;
   content: "Example";
   float: right;
   padding: 0.2em 1em 0em 1em;
@@ -226,16 +226,16 @@ li.red.color-box{
 }
 
 li.grey.color-box{
-  background-color: #414242;
+  background-color: $dark-grey;
 }
 
 li.black.color-box{
-  background-color: #000;
+  background-color: $black;
 }
 
 li.blue.color-box,
 .blue-background{
-  background-color: #00529c;
+  background-color: $blue;
 }
 
 li.english.subject-box  a,

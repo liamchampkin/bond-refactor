@@ -1,5 +1,7 @@
+/* Add all new css to the bottom of this file and notify liam smith */
+/** edits anywhere else will be overwritten by compiled css **/
 body {
-  color: #000000;
+  color: #000;
   line-height: 1.5em;
   background-color: #FBFBFB;
   margin: 0;
@@ -449,7 +451,7 @@ body .container {
   font-weight: normal; }
 
 #mainNavBar .joomla-nav li:hover {
-  border-bottom: 9px solid #00529c;
+  border-bottom: 9px solid #00529C;
   height: 17px; }
 
 #mainNavBar .joomla-nav,
@@ -1833,8 +1835,8 @@ body #hikashop_category_information_module_51 div.hikashop_subcontainer {
 td.hikashop_product_name_row,
 td.hikashop_product_price_row,
 td.hikashop_product_add_to_cart_row {
-  border-top: 1px solid #00529c;
-  border-bottom: 1px solid #00529c;
+  border-top: 1px solid #00529C;
+  border-bottom: 1px solid #00529C;
   width: 70%; }
 
 .hikashop_product_image {
@@ -2078,7 +2080,7 @@ label {
 
 /*register page*/
 th {
-  background-color: #00529c;
+  background-color: #00529C;
   color: white;
   padding: 0.5em; }
 
@@ -2234,7 +2236,7 @@ li.black.color-box {
 
 li.blue.color-box,
 .blue-background {
-  background-color: #00529c; }
+  background-color: #00529C; }
 
 li.english.subject-box a,
 li.teal.color-box,

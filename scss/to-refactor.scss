@@ -297,7 +297,7 @@ body .container{
 }
 
 .main-right-sidebar > div {
-  background-color: #dadada;
+  background-color: $border-color;
 }
 
 .main-left-sidebar h3,
@@ -362,7 +362,7 @@ body .container{
   margin-bottom: 30px;
   width: 79%;
   float: right;
-  border-bottom: 2px solid #00529C; /*blue color*/
+  border-bottom: 2px solid $blue; /*blue color*/
   margin-top: 5.7%;
 }
 
@@ -395,13 +395,13 @@ body .container{
 }
 
 #mainNavBar .joomla-nav a {
-  color: #00529C; /*blue color*/
+  color: $blue; /*blue color*/
   font-size: 1.2em;
   font-weight: normal;
 }
 
 #mainNavBar .joomla-nav li:hover {
-  border-bottom: 9px solid #00529c;
+  border-bottom: 9px solid $blue;
   height: 17px;
 }
 
@@ -419,11 +419,11 @@ body .container{
 
 #mainNavBar .joomla-nav li#current {
   height: 17px;
-  border-bottom: 9px solid #00529C;
+  border-bottom: 9px solid $blue;
 }
 
 #mainNavBar .joomla-nav li#current a {
-  color: #00529C; /*blue color*/
+  color: $blue; /*blue color*/
   max-height:1.2em;
   height:1.2em;
 }
@@ -658,7 +658,7 @@ body .container{
 
 .summaryTable > tbody {
   background-color: white;
-  border: 1px solid #dadada;
+  border: 1px solid $border-color;
   border-radius: 10px;
 }
 
