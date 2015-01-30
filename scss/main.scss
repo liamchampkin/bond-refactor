@@ -1,0 +1,277 @@
+
+
+.login-form.loginbox.clearfix.twocolumns {
+  margin: 0 auto;
+  padding: 2em;
+  width: 467px;
+}
+
+.login-form{
+  margin: 0;
+}
+
+.adultlogin, .registerLink {
+  width: 400px;
+}
+
+.registerLink {
+  border-top: 0 none !important;
+  padding: 1em 2em;
+  height: 31px;
+}
+
+.adultlogin table.bordered {
+    width: 100%;
+}
+
+.adultlogin .bordered input {
+  float: right;
+  width: 209px;
+}
+
+.breadcrumb-container {
+  float: left;
+  height: 63px;
+  position: relative;
+  width: 100%;
+}
+
+.adultlogin,
+.registerLink,
+.registration-form table{
+  background-color: white;
+  border: 1px solid #dadada;
+  margin: 0 auto;
+  padding: 2em;
+}
+
+/*register page*/
+th {
+  background-color: #00529c;
+  color: white;
+  padding: 0.5em;
+}
+
+.comment {
+  font-size: 84%;
+}
+
+.bondform-label {
+  width: 161px;
+}
+
+.bordered input#nomarketing {
+  margin-right: 37px; /*checkbox*/
+}
+
+label#nonmarketing{
+  font-size: 60%;
+}
+
+.registration-form .submitButtonBlue {
+  margin-right: 2em;
+}
+
+.registration-form {
+  margin: 0 auto;
+  width: 900px;
+}
+
+/*my account*/
+.myaccount-buttons td {
+  width: 50%;
+}
+
+// some home styles
+
+.mission{
+  margin: 3em 0 3em 0;
+  padding-left: 30px;
+  width: 790px;
+}
+
+.home-mission {
+  margin: 0 0 3em 0;
+  padding-left: 30px;
+  width: 790px;
+}
+
+.home-mission h1{
+  margin: 0px;
+}
+
+/*brand guidelines*/
+
+.guideline {
+  margin-bottom: 3.5em;
+}
+
+.example {
+  border: 1px solid #dadada;
+  padding: 2em;
+  position: relative;
+  background-color: white;
+}
+
+.example:after {
+  background-color: #FBFBFB; /*same as body colour*/
+  border-bottom: 1px solid #dadada;
+  border-left: 1px solid #dadada;
+  content: "Example";
+  float: right;
+  padding: 0.2em 1em 0em 1em;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+ul.subjects{
+  height: 67px;
+  margin: 0 0 10px;
+  padding: 0;
+  width: 100%;
+}
+
+ul.subjects.colours{
+  height: 123px;
+}
+
+ul.book-covers {
+  margin: 0 0 10px;
+  padding: 0;
+  float: left;
+  width: 100%;
+}
+
+li.subject-box,
+li.cover {
+    display: inline;
+}
+
+li.subject-box a {
+  background-color: #ee1941;
+  display: inline-block;
+  float: left;
+  height: 45px;
+  margin-left: 2%;
+  position: relative;
+  width: 20.6%;
+}
+
+li.color-box {
+  background-color: #ee1941;
+  display: inline-block;
+  float: left;
+  height: 100px;
+  margin-left: 2%;
+  position: relative;
+  width: 20.6%;
+}
+
+li.color-box span{
+  color: white;
+}
+
+.hex-text {
+  bottom: 0;
+  font-size: 60%;
+  position: absolute;
+  right: 10px;
+  opacity: 0.79;
+}
+
+li.cover a {
+  background-color: #ee1941;
+  display: inline-block;
+  float: left;
+  margin-left: 2%;
+  position: relative;
+  width: 23.4%;
+  border-bottom: 0;
+}
+
+li.subject-box a:hover,
+li.cover a:hover{
+  opacity: 0.8;
+}
+
+li.subject-box:first-child a,
+li.color-box:first-child,
+li.cover:first-child a{
+  margin-left: 0;
+}
+
+ul.subjects.colours li a{
+  height: 100px;
+}
+
+.cover img{
+  width: 100%;
+}
+
+.subject-box > a,
+.color-box {
+  border: 0 none;
+  color: white;
+  font-size: 1.5em;
+  font-weight: bold;
+  line-height: 1;
+  padding: 1.4%;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+li.red.color-box{
+  background-color: #ee1941;
+}
+
+li.grey.color-box{
+  background-color: #414242;
+}
+
+li.black.color-box{
+  background-color: #000;
+}
+
+li.blue.color-box,
+.blue-background{
+  background-color: #00529c;
+}
+
+li.english.subject-box  a,
+li.teal.color-box,
+.english-background{
+  background-color: #00A4B9;
+}
+
+.english-background.high-light li,
+.verbal-background.high-light li,
+.non-verbal-background.high-light li{
+  color: white;
+}
+
+li.verbal.subject-box a,
+li.green.color-box,
+.verbal-background{
+  background-color: #ADBE25;
+}
+
+li.non-verbal.subject-box a,
+li.yellow.color-box,
+.non-verbal-background{
+  background-color: #FDB813;
+}
+
+.full-width-header{
+  margin: -30px -30px 30px;/*same as article padding*/
+  padding: 4em 2em 3em;
+}
+
+.full-width-header h1{
+  font-size: 5em;
+}
+
+.full-width-header h1,
+.full-width-header p{
+  color: white;
+}

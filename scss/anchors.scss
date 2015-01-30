@@ -1,0 +1,48 @@
+a img {
+  border: medium none;
+}
+
+a:visited {
+
+}
+
+a:link,
+.main-left-sidebar .hikashop_subcategories_listing a{
+  color: #2749AB;
+  text-decoration: none;
+}
+
+.hikashop_subcategories_listing a{
+  color: #2749AB !important; /*overiding from a file I cant find*/
+}
+
+a:hover {
+  color: #0070D7;
+}
+
+.article-section p a,
+.article-section li a,
+.example a,
+a.back-to-top{
+  border-bottom: 1px solid #dadada;
+  text-decoration: none;
+}
+
+.article-section p a:hover,
+.example p a:hover,
+.article-section li a:hover{
+  border-bottom: 1px solid #0070D7;
+  text-decoration: none;
+}
+
+.article-section a img
+.article-section .no-border-link li a{
+  border-bottom: none;
+  text-decoration: none;
+}
+
+.article-section a:hover img,
+.article-section .no-border-link li a:hover{
+  border-bottom: none;
+  text-decoration: none;
+}

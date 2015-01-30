@@ -1,0 +1,163 @@
+.login-buttons {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.btn {
+  background-image: none;
+  border: 1px solid transparent;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.42857;
+  margin-bottom: 0;
+  padding: 6px 12px;
+  text-align: center;
+  vertical-align: middle;
+  white-space: nowrap;
+  background-color: #414242;
+  color: white;
+  border: 1px solid black;
+}
+
+.btn:hover{
+  background-color: black;
+}
+
+.widget .btn {
+  display: block;
+  font-size: 1.7em;
+  margin-bottom: 0.5em;
+  padding: 0.4em;
+}
+
+a.loginButton {
+  background-color: #414242;
+  float: right;
+  padding: 5px 20px;
+}
+
+a.loginButton span{
+  color: white;
+}
+
+button:after,
+a.btn.caret-after:after {
+  content: ">";
+  padding: 0 0 0 11px;
+}
+
+.loginButton:after {
+  color: #fff;
+  content: ">";
+  font-family: georgia;
+  padding: 0 0 0 25px;
+}
+
+input[type="submit"],
+a.btn-default{
+  background: transparent;
+  background-color: #2d2e2e;
+  border: medium none;
+  color: white;
+  background-image: none !important;
+  font-size: 16px;
+  padding: 0.5em;
+}
+
+input[type="submit"]:hover,
+a.loginButton:hover,
+a.btn-default:hover{
+    background-color: #000;
+    cursor: pointer;
+}
+
+.bond-page input[type="text"],
+.bond-page input[type="password"]{
+  border: 1px solid #2d2e2e !important;
+  font-size: 16px !important;
+  padding: 0.5em !important; /*overiding a css sheet that I dont have access to*/
+}
+
+input[type="text"], input[type="password"], input.text, input.title, textarea, select {
+    margin: 1em 0; /*overides screen .css*/
+}
+
+select {
+  background-color: #fff;
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
+  padding: 0.9em;
+}
+
+input.bondforgotten-button,
+input.btn-secondary,
+a.btn-secondary,
+input.bond-register-button,
+input#id_cancel,
+.submitButtonBlue {
+  background-color: #E6E6E6;
+  border: none;
+  color: #414242;
+  cursor: pointer;
+}
+
+input.bondforgotten-button:hover,
+input.btn-secondary:hover,
+input.bond-register-button:hover,
+input#id_cancel:hover,
+a.btn-secondary:hover,
+.submitButtonBlue:hover {
+  background-color: #dedede;
+}
+
+input.bondlogin-button,
+input.bondforgotten-button{
+  width: 100%;
+  margin: 0 0 1em 0;
+  font-size: 1em;
+  font-weight: bold;
+  padding: 0.7em;
+}
+
+input.bondlogin-button{
+  margin-top: 1em;
+}
+
+.bond-register-button {
+  float: right;
+}
+
+input.bondforgotten-button{}
+
+.bond-page .hikashop_product_add_to_cart_row .hikashop_cart_input_button,
+body .hikashop_checkout_billing_address_new .hikashop_cart_input_button,
+body .hikashop_checkout_shipping_address_new .hikashop_cart_input_button,
+body .example .hikashop_cart_input_button,
+body .hikashop_checkout_coupon .hikashop_cart_input_button,
+body .hikashop_product_quantity_main .hikashop_cart_input_button,
+body .hikashop_products_listing .hikashop_search_input_button,
+body #hikashop_address_form_span_iframe .hikashop_cart_input_button{
+    background-image: none;
+    width: auto !important;
+    background-color: #E6E6E6;
+    color: #424242; /*grey text*/
+    font-size: 0.8em;
+    border-radius: 5px;
+    line-height: 1.5;
+}
+
+.bond-page .hikashop_product_add_to_cart_row .hikashop_cart_input_button:hover,
+body .hikashop_checkout_billing_address_new .hikashop_cart_input_button:hover,
+body .hikashop_checkout_shipping_address_new .hikashop_cart_input_button:hover,
+body .hikashop_checkout_coupon .hikashop_cart_input_button:hover,
+body .hikashop_product_quantity_main .hikashop_cart_input_button:hover,
+body .hikashop_products_listing .hikashop_search_input_button:hover,
+body .example .hikashop_cart_input_button:hover,
+body #hikashop_address_form_span_iframe .hikashop_cart_input_button:hover{
+  background-color: #2D2E2E;
+  color: white;
+}

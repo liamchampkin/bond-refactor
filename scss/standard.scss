@@ -1,0 +1,35 @@
+body {
+  color: #000000;
+  line-height: 1.5em;
+  background-color: #FBFBFB;
+  margin: 0;
+  font-size: 100%;
+}
+
+th, td, caption {
+    padding: 0; /*resets the tables*/
+}
+
+dl {
+    margin: 0; /*reset*/
+}
+
+.pull-left{
+  float: left !important;
+}
+
+.pull-right{
+  float: right !important;
+}
+
+.clear-both{
+  clear: both;
+}
+
+.clear-left{
+  clear: left;
+}
+
+.clear-right{
+  clear: right;
+}
