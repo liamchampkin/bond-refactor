@@ -1,13 +1,14 @@
-@import "notice.scss";							//info
-@import "variables.scss";						//variables
-@import "standard.scss";						//base css
-@import "to-refactor.scss"; 				//going through this and re-organising should eventually become redundant
-@import "layout.scss"; 							//base layout
-@import "anchors.scss"; 						//link styles
-@import "buttons.scss";							//button styles
-@import "shop.scss"; 								//shop styles
-@import "bond-online.scss";					//bond online styles
-@import "print.scss";								//print styles
-@import "main.scss";								//everything else refactores
-@import "responsive.scss";					//responsive queries 
+@import "notice.scss";													//info
+@import "variables.scss";												//variables
+@import "standard.scss";												//base css
+@import "to-refactor.scss"; 										//going through this and re-organising should eventually become redundant
+@import "bond-courses-to-refactor.scss"; 				//going through this and re-organising should eventually become redundant
+@import "layout.scss"; 													//base layout
+@import "anchors.scss"; 												//link styles
+@import "buttons.scss";													//button styles
+@import "shop.scss"; 														//shop styles
+@import "bond-online.scss";											//bond online styles
+@import "print.scss";														//print styles
+@import "main.scss";														//everything else refactores
+@import "responsive.scss";											//responsive queries 
  

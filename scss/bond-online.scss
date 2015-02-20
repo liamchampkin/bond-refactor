@@ -1,10 +1,44 @@
-.child-home td.homequiztable1 {
-  font-size: 1.1em;
-  font-weight: normal;
-  padding-left: 10px;
-  width: 20%;
+.child-home{
+  td.homequiztable1 {
+    font-size: 1em;
+    font-weight: normal;
+    padding-left: 10px;
+    width: 26%;
+  }
+  .homequiztableheaderrow {
+    background: $blue;
+    color: #ffffff;
+      td {
+        padding: $table-header-padding;
+        font-weight: normal;
+      }
+  }
+  #quiz-list, #home-table, #report-list{
+    tr:nth-child(even) {
+      background: $table-even-color;
+    }   
+  }
 }
 
+.coursePracticeAndMockResults{
+  background-color: $blue;
+}
+
+body{
+  .parent-reports .bestGrade, .try-it .bestGrade, .child-home .bestGrade{
+    background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iTGF5ZXJfMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeD0iMHB4IiB5PSIwcHgiIHdpZHRoPSI2Ni45NDVweCIgaGVpZ2h0PSI2NC4zMzNweCIgdmlld0JveD0iMCAwIDY2Ljk0NSA2NC4zMzMiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDY2Ljk0NSA2NC4zMzMiIHhtbDpzcGFjZT0icHJlc2VydmUiPjxnPjxwYXRoIGZpbGw9IiM4MkJDMDAiIGQ9Ik02NS44MDksMjcuMDQxTDUxLjIyNSw0MS4yNjNsMy40NTUsMjAuMDg4YzAuMDQsMC4yODEsMC4wNCwwLjUyMiwwLjA0LDAuODAzYzAsMS4wNDUtMC40ODIsMi4wMDktMS42NDcsMi4wMDljLTAuNTYyLDAtMS4xMjUtMC4yMDEtMS42MDctMC40ODJMMzMuNDI3LDU0LjJsLTE4LjAzOSw5LjQ4MWMtMC41MjIsMC4yODEtMS4wNDUsMC40ODItMS42MDcsMC40ODJjLTEuMTY1LDAtMS42ODctMC45NjQtMS42ODctMi4wMDljMC0wLjI4MSwwLjA0LTAuNTIyLDAuMDgtMC44MDNsMy40NTUtMjAuMDg4TDEuMDA0LDI3LjA0MUMwLjUyMiwyNi41MTksMCwyNS44MzUsMCwyNS4xMTJjMC0xLjIwNSwxLjI0Ni0xLjY4OCwyLjI1LTEuODQ4bDIwLjE2OC0yLjkzM2w5LjA0LTE4LjI4YzAuMzYyLTAuNzY0LDEuMDQ1LTEuNjQ3LDEuOTY5LTEuNjQ3czEuNjA3LDAuODg0LDEuOTY5LDEuNjQ3bDkuMDQsMTguMjhsMjAuMTY4LDIuOTMzYzAuOTY0LDAuMTYxLDIuMjUsMC42NDMsMi4yNSwxLjg0OEM2Ni44NTQsMjUuODM1LDY2LjMzMSwyNi41MTksNjUuODA5LDI3LjA0MXoiLz48L2c+PC9zdmc+);    background-size: 60px auto;
+    background-position: 2px 2px;
+    font-weight: normal;
+  }
+  .parent-reports .course-row-nottaken td, .parent-reports .course-row-regular td, .try-it .course-row-nottaken td, .try-it .course-row-regular td, .child-home .course-row-nottaken td, .child-home .course-row-regular td{
+    border-bottom: 0px;
+    transition: background-color 0.5s ease;
+  }
+  .parent-reports .course-row-hover, .try-it .course-row-hover, .child-home .course-row-hover {
+    background: none repeat scroll 0 0 rgba(69, 165, 234, 0.14);
+
+  }
+}
 .dot_on, .dot_off {
   float: left;
   margin-top: 6px;
@@ -24,17 +58,59 @@
   background-color: $blue;
   color: transparent;
   width: 28px;
-  height: 28px;
+  height: 28px; 
+}
+
+.no_Result,
+.display_Result{
+  color: #FFFFFF;
+  float: left;
+  font-weight: normal;
+  padding: 8px 0 6px;
+  text-align: center;
+  width: 60px;
+  border-radius: 10px;
+  margin-left: 10px;
+  line-height: 1.5;
 }
 
 .display_Result {
-  color: #FFFFFF;
-  float: left;
-  font-weight: bold;
-  padding: 6px 0;
-  text-align: center;
-  width: 60px;
   background-color: $result-box-color;
-  border-radius: 10px;
-  margin-left: 10px;
+}
+
+.no_Result{
+  background-color: white;
+  border: 1px solid $no-result-box-color;
+  background-image: none;
+  height: 21px;
+  &:after{
+    color: $no-result-box-color;
+    content: "?";
+    font-size: 1em;
+    line-height: 1.5;
+  }
+}
+
+.homequiztable3.averageScoreText,
+.homequiztable4.averageScoreText{
+  color: white;
+  font-weight: normal;
+  padding: $table-header-padding;
+}
+
+.homequiztable2 > img {
+  background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iTGF5ZXJfMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeD0iMHB4IiB5PSIwcHgiIHdpZHRoPSIyMC41NzFweCIgaGVpZ2h0PSIyMC41NzFweCIgdmlld0JveD0iMCAwIDIwLjU3MSAyMC41NzEiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDIwLjU3MSAyMC41NzEiIHhtbDpzcGFjZT0icHJlc2VydmUiPjxnPjxwYXRoIGZpbGw9IiMwMDUyOUMiIGQ9Ik0xOS4xOTIsNS4xMjNjMC45MTksMS41NzYsMS4zNzksMy4yOTcsMS4zNzksNS4xNjNzLTAuNDYsMy41ODctMS4zNzksNS4xNjNjLTAuOTIsMS41NzYtMi4xNjgsMi44MjQtMy43NDQsMy43NDRjLTEuNTc1LDAuOTE5LTMuMjk3LDEuMzc5LTUuMTYyLDEuMzc5Yy0xLjg2NiwwLTMuNTg4LTAuNDYtNS4xNjMtMS4zNzljLTEuNTc2LTAuOTE5LTIuODI0LTIuMTY3LTMuNzQzLTMuNzQ0QzAuNDYsMTMuODczLDAsMTIuMTUyLDAsMTAuMjg2czAuNDYtMy41ODcsMS4zOC01LjE2M2MwLjkxOS0xLjU3NiwyLjE2Ny0yLjgyNCwzLjc0My0zLjc0M0M2LjY5OCwwLjQ2LDguNDIsMCwxMC4yODYsMGMxLjg2NSwwLDMuNTg3LDAuNDYsNS4xNjIsMS4zNzlDMTcuMDI0LDIuMjk5LDE4LjI3MiwzLjU0NywxOS4xOTIsNS4xMjN6IE0xNy4yMSwxMC4yODZjMC0wLjI0MS0wLjA4LTAuNDQyLTAuMjQxLTAuNjAzTDE1Ljc1LDguNDY0bC00Ljg0OS00Ljg0OGMtMC4xNi0wLjE2MS0wLjM2MS0wLjI0MS0wLjYwMy0wLjI0MXMtMC40NDEsMC4wOC0wLjYwMywwLjI0MUw4LjQ3OCw0LjgzNGMtMC4xNiwwLjE2MS0wLjI0MSwwLjM2Mi0wLjI0MSwwLjYwM2MwLDAuMjQxLDAuMDgxLDAuNDQyLDAuMjQxLDAuNjAzbDIuNTMxLDIuNTMxSDQuMjg2Yy0wLjIzMiwwLTAuNDM0LDAuMDg1LTAuNjA0LDAuMjU0Yy0wLjE2OSwwLjE3LTAuMjU0LDAuMzcxLTAuMjU0LDAuNjAzdjEuNzE0YzAsMC4yMzIsMC4wODUsMC40MzMsMC4yNTQsMC42MDNDMy44NTMsMTEuOTE1LDQuMDU0LDEyLDQuMjg2LDEyaDYuNzIzbC0yLjUzMSwyLjUzMWMtMC4xNywwLjE2OS0wLjI1NCwwLjM3MS0wLjI1NCwwLjYwM2MwLDAuMjMyLDAuMDg0LDAuNDMzLDAuMjU0LDAuNjAzbDEuMjE5LDEuMjE5YzAuMTYxLDAuMTYxLDAuMzYxLDAuMjQxLDAuNjAzLDAuMjQxczAuNDQyLTAuMDgxLDAuNjAzLTAuMjQxbDQuODQ5LTQuODQ4bDEuMjE5LTEuMjE5QzE3LjEzLDEwLjcyOCwxNy4yMSwxMC41MjYsMTcuMjEsMTAuMjg2eiIvPjwvZz48L3N2Zz4=);
+  background-repeat: no-repeat;
+  padding: 5px;
+  position: relative;
+  top: 3px;
+  left: 40%;
+}
+
+.bond-page{
+  .parent-reports .question, .try-it .question, .child-home .question,
+  .parent-reports .questionTopCurve, .try-it .questionTopCurve, .child-home .questionTopCurve,
+  .parent-reports .questionBottomCurve, .try-it .questionBottomCurve, .child-home .questionBottomCurve{
+    width: 100%;
+  }
 }

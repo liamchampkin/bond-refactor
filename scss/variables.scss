@@ -14,6 +14,9 @@ $red:											#EE1941;
 $green:										#ADBE25;
 $yellow:									#FDB813;
 
+$results-green:						#82BC00;
+$results-amber:						#EDA900;
+
 //subjects
 $english:									$teal;
 $maths:										$red;
@@ -34,7 +37,12 @@ $border-radius:						15px;
 $link-color:							#2749AB;
 $link-hover:							darken($link-color, 5%);
 
-$result-box-colour: 			$green;
+$result-box-color: 				$results-green;
+$no-result-box-color: 		$results-amber;
+
+$table-even-color:				#E3EDF2;
+
+$table-header-padding:		8px;
 
 //buttons
 $primary-button-color:		$dark-grey;

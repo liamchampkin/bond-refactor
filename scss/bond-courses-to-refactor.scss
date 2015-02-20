@@ -1,0 +1,709 @@
+.parent-reports .course-row-nottaken td,
+.parent-reports .course-row-regular td,
+.try-it .course-row-nottaken td,
+.try-it .course-row-regular td,
+.child-home .course-row-nottaken td,
+.child-home .course-row-regular td {
+  border-bottom: 3px solid #E9ECED;
+}
+
+.parent-reports .course-row-nottaken,
+.parent-reports .course-row-regular,
+.try-it .course-row-nottaken,
+.try-it .course-row-regular,
+.child-home .course-row-nottaken,
+.child-home .course-row-regular {
+  cursor: pointer;
+  height: 70px;
+  vertical-align: middle;
+}
+
+.parent-reports .course-row-nottaken,
+.try-it .course-row-nottaken,
+.child-home .course-row-nottaken {
+  cursor: default;
+}
+
+.parent-reports .course-row-nottaken,
+.parent-reports .course-row-regular,
+.try-it .course-row-nottaken,
+.try-it .course-row-regular,
+.child-home .course-row-nottaken,
+.child-home .course-row-regular {
+  background: white;
+}
+
+.parent-reports .course-row-hover,
+.try-it .course-row-hover,
+.child-home .course-row-hover {
+  background: #EAF2F7;
+}
+
+.parent-reports .homequiztable1,
+.try-it .homequiztable1,
+.child-home .homequiztable1 {
+  font-size: 1.3em;
+  font-weight: bold;
+  padding-left: 10px;
+  vertical-align: middle;
+  width: 20%;
+}
+
+.try-it .homequiztable1,
+.child-home .homequiztable1 {
+  font-size: 1.1em;
+}
+
+.parent-reports .homequiztable2,
+.try-it .homequiztable2,
+.child-home .homequiztable2 {
+  vertical-align: middle;
+  width: 10%;
+}
+
+.parent-reports .homequiztable3,
+.try-it .homequiztable3,
+.child-home .homequiztable3 {
+  vertical-align: middle;
+  width: 50%;
+}
+
+.parent-reports .homequiztable4,
+.try-it .homequiztable4,
+.child-home .homequiztable4 {
+  vertical-align: middle;
+  text-align:center;
+  width: 20%;
+}
+
+.parent-reports .averageScoreText,
+.parent-reports .bestScoreText {
+  font-weight: bold;
+}
+
+.parent-reports .bestGrade,
+.try-it .bestGrade,
+.child-home .bestGrade {
+  background: url("images/star_grade.png") no-repeat scroll -8px -8px transparent;
+  color: #FFFFFF;
+  font-size: 0.9em;
+  font-weight: bold;
+  height: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 23px;
+  text-align: center;
+  width: 65px;
+}
+
+.parent-reports h2.quiz-main-start,
+.try-it h2.quiz-main-start,
+.child-home h2.quiz-main-start {
+  line-height: 2em;
+}
+
+.parent-reports h2.quiz-main .quiz-main-title,
+.try-it h2.quiz-main .quiz-main-title,
+.child-home h2.quiz-main .quiz-main-title {
+  float: left;
+  padding-top: 10px;
+}
+
+
+.parent-reports .mostRecent {
+  font-size: 0.9em;
+  color: rgb(102, 102, 102);
+}
+
+.try-it table.testHistory td,
+.child-home table.testHistory td,
+.parent-reports table.testHistory td {
+  border-bottom: 3px solid #E9ECED;
+  font-size: 1.1em;
+}
+
+.try-it .question-details-top,
+.child-home .question-details-top,
+.parent-reports .question-details-top {
+  margin: 20px auto 0px auto;
+}
+
+.try-it .question-details table.testHistory,
+.child-home .question-details table.testHistory,
+.parent-reports .question-details table.testHistory {
+  margin: 0;
+  width: 100%;
+}
+
+.try-it .question-details table.testHistory td,
+.child-home .question-details table.testHistory td,
+.parent-reports .question-details table.testHistory td {
+  border: none;
+}
+
+.try-it .textCenter,
+.child-home .textCenter,
+.parent-reports .textCenter {
+  text-align: center;
+}
+
+.try-it .course-no-tests-attempted,
+.child-home .course-no-tests-attempted {
+  text-align: center;
+  height: 49px;
+  cursor: default;  
+}
+
+.try-it .question td,
+.child-home .question td,
+.parent-reports .question td {
+  padding: 10px 0;
+  text-align: center;
+}
+
+table.question-text {
+  margin: 10px 0;
+  float:right;
+  width: 80%;
+}
+
+.try-it div.question-text td,
+.child-home div.question-text td,
+.parent-reports div.question-text td {
+  text-align: left;
+}
+
+.try-it .question td .answer-input,
+.child-home .question td .answer-input,
+.parent-reports .question td .answer-input {
+  padding: 0 10px;
+}
+
+.try-it .question td label,
+.try-it .question td label img,
+.child-home .question td label,
+.child-home .question td label img,
+.parent-reports .question td label,
+.parent-reports .question td label img {
+  padding: 0;
+  margin: 0;
+}
+
+.try-it .question td label img,
+.child-home .question td label img,
+.parent-reports .question td label img {
+  padding: 0;
+  margin: 0;
+}
+
+.try-it .question td .anun,
+.child-home .question td .anun,
+.parent-reports .question td .anun {
+  font-size: 1.4em;
+}
+
+.try-it .testHistoryGrade,
+.try-it .displayResultReview,
+.child-home .testHistoryGrade,
+.child-home .displayResultReview,
+.parent-reports .testHistoryGrade,
+.parent-reports-reviewStatus .displayResultReview {
+  background: url("images/result_bg.png") no-repeat scroll 0 12px transparent;
+  color: #444444;
+  font-weight: 700;
+  text-align: center;
+  width:50px;
+}
+
+.try-it .question tr,
+.child-home .question tr,
+.parent-reports .question tr {
+  vertical-align: middle;  
+}
+
+.parent-reports-header {
+  margin:10px 0 0 5px;
+  padding:0 0 10px 6px;
+}
+
+.parent-reports-header h1 {
+  margin:0;
+  padding:0;
+}
+
+.try-it-reviewStatus,
+.child-home-reviewStatus,
+.child-home-mocktest-reviewStatus,
+.parent-reports-reviewStatus {
+  background-color: #FFFFCC;
+  margin: -12px 5px;
+}
+
+.try-it-reviewStatus table,
+.child-home-reviewStatus table,
+.child-home-mocktest-reviewStatus table,
+.parent-reports-reviewStatus table {
+  margin-bottom: 0;
+}
+
+.try-it-reviewStatus .reviewStatus-header,
+.child-home-reviewStatus .reviewStatus-header,
+.child-home-mocktest-reviewStatus .reviewStatus-header,
+.parent-reports-reviewStatus .reviewStatus-header {
+  font-weight: bold;
+}
+
+.child-home-mocktest-reviewStatus  .display_Result {
+  float: right;
+}
+.child-home-mocktest-reviewStatus .reviewStatusText {
+  display: block;
+  float: left;
+  margin-top: 11px;
+}
+
+td.mocktest-reviewStatus-buttons>div {
+  float: left;
+}
+td.mocktest-reviewStatus-buttons>form {
+  float: right;
+}
+
+.try-it .attempt-paging,
+.child-home .attempt-paging,
+.parent-reports .attempt-paging {
+  background: url("images/navigation_bar_bg.png") no-repeat scroll center center transparent;
+  border: 0 none;
+  height: 43px;
+  padding-left: 15px;
+  padding-right: 10px;
+  position: relative;
+  text-align: left;
+  width: 956px;
+  font-size: 1.4em;
+  margin: 10px 0 0 0;
+  clear: both;
+}
+
+.attempt-paging .attempt-previous, .attempt-paging .attempt-previous_off {
+  float: right;
+  margin: -4px 10px 0 0;
+  text-align: center;
+}
+.attempt-paging .attempt-next, .attempt-paging .attempt-next_off {
+  float: right;
+  margin: -4px 0 0 0;
+  text-align: center;
+}
+
+.attempt-page-list {
+  background: url("images/paging_background.png") no-repeat scroll center center transparent;
+  width: 522px;
+  margin: 0 auto;
+  padding-top: 6px;
+  text-align: center;
+  height: 38px;
+}
+
+.attempt-thispage {
+  background-color: #d1e1e9;
+  border: 1px solid #90B8CA;
+  color: #77A7BF;
+  padding: 4px 8px;
+  cursor: default;
+}
+
+.attempt-page {
+  background-color: #FFFFFF;
+  border: 1px solid #FFFFFF;
+  color: #2B6CBE;
+  padding: 4px 8px;
+  cursor: pointer;
+}
+
+.attempt-next-previous-left {
+  float: left;
+  padding-top: 4px;
+}
+.attempt-next-previous-right {
+  float: right;
+  padding-top: 4px;
+}
+#attempt-next-previous {
+  float: right;
+  padding-top: 2px;
+}
+.attempt-next-previous {
+  margin-top: 3px;
+}
+.attempt-previous_off, .attempt-next_off,
+.attempt-first, .attempt-previous, .attempt-next, .attempt-last {
+  font-size: 16px;
+  font-weight: bold;
+  border: 0 none;
+  margin-right: 10px;
+  padding: 10px 15px;
+  width: 47px;
+  text-decoration: none;
+  color: #0066CC;
+  cursor: pointer;
+  line-height: 2em;
+}
+
+h2 .attempt-previous_off, h2 .attempt-next_off,
+h2 .attempt-first, h2 .attempt-previous, h2 .attempt-next {
+}
+
+.attempt-previous_off,
+.attempt-next_off {
+  color: #E3EAEB;
+  cursor: default;
+}
+
+.attempt-previous_off,
+.attempt-first, .attempt-previous {
+  background: url("images/btn_back_bg.png") no-repeat scroll center center transparent;
+}
+
+.attempt-next_off,
+.attempt-next,
+.attempt-last {
+  background: url("images/btn_next_bg.png") no-repeat scroll center center transparent;
+}
+
+.attempt-previous-ten {
+  float: left;
+  background: transparent url("images/btn_backwards.png") top left no-repeat;
+  width: 32px;
+  height: 32px;
+  margin: 1px 8px;
+  cursor: pointer;
+}
+.attempt-next-ten {
+  float: right;
+  background: transparent url("images/btn_forwards.png") top right no-repeat;
+  width: 32px;
+  height: 32px;
+  margin: 1px 8px;
+  cursor: pointer;
+}
+.attempt-page-scroll {
+  overflow: hidden;
+  padding: 6px;
+  width: 350px;
+}
+.attempt-of-howmany {
+  float: right;
+  padding: 6px;
+}
+
+.question-info {
+  background: url("images/q_bg.png") no-repeat scroll center center transparent;
+  display: block;
+  height: 48px;
+  padding: 0 20px;
+  text-align: center;
+  width: 50px;
+  color: #575757;
+  font-size: 35px;
+  line-height:48px;
+  float: left;
+}
+
+div.question-text {
+  font-size: 1.4em;
+  text-align: left;
+  line-height: 1.4em;
+}
+
+div.question-text img {
+  vertical-align:middle;
+}
+
+div.question-text input {
+  /*margin-top: 30px;*/
+}
+
+div.question-answers-freetextbond {
+  float: left;
+  margin-left: 55px;
+  width: 85%;  
+}
+div.question-answers-multinput {
+  float: left;
+  margin: 0 0 15px 55px;
+  width: auto;
+  max-width: 85%;
+}
+div.question-example {
+  float: right;
+  width: 150px;
+}
+
+div.question-answers {
+  clear: both;
+  padding: 0 10px;
+}
+
+div.question-answers table {
+  border-spacing: 10px;
+  width: 100%;
+}
+
+div.question-answers td  {
+  border: 1px solid #CDCDCD;
+  height: 40px;
+  padding-top: 10px;
+}
+
+div.question-answers td label {
+  font-size: 1.4em;
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+div.question-answers tr  {
+  background: url("images/option_gradient_bg.png") repeat-x scroll left bottom;
+  width: 100%;
+}
+
+.question-answers-feedbackBox {
+  font-size: 1.1em;
+  border: medium none;
+  font-size: 1.6em;
+  margin-left: 35px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 897px;
+  clear: both;
+}
+
+.question-answers-correct-top,
+.question-answers-incorrect-top {
+  padding: 4px;
+  width: 897px;
+}
+
+.question-answers-correct-top {
+  background: url("images/correctTop.png") no-repeat scroll left bottom transparent;
+}
+
+.question-answers-incorrect-top {
+  background: url("images/incorrectTop.png") no-repeat scroll left bottom transparent;
+}
+
+.question-answers-correct-middle,
+.question-answers-incorrect-middle {
+  margin: 0;
+  min-height: 50px;
+  padding: 10px 0 10px 70px;
+  width: 827px;
+}
+
+.question-answers-correct-middle p,
+.question-answers-incorrect-middle p {
+  margin: 1.5em 0;
+  line-height: 1.4em;
+}
+.question-answers-correct-middle {
+  background: url("images/correctMiddle.png") no-repeat scroll 0 0 #EFFADE;
+}
+
+.question-answers-incorrect-middle {
+  background: url("images/incorrectMiddle.png") no-repeat scroll 0 0 #FBEEE6;
+}
+
+.question-answers-correct-bottom,
+.question-answers-incorrect-bottom {
+  padding: 4px;
+  width: 897px;
+}
+
+.question-answers-correct-bottom {
+  background: url("images/correctBottom.png") no-repeat scroll left top transparent;
+}
+
+.question-answers-incorrect-bottom {
+  background: url("images/incorrectBottom.png") no-repeat scroll left top transparent;
+}
+
+.question-answers-report-problem {    
+  margin: 0;
+  padding-left: 10px;
+}
+
+.question-answers-freetextbond input {
+  background: url("images/input_bg.png") no-repeat scroll left top #FFFFFF;
+  border: 1px solid #3867A3;
+  margin: 3px auto;
+  padding: 0 0 4px;
+  font-size: 1em;
+}
+
+.question-answers-multibond label {
+  top: 0;
+}
+
+.parent-reports-child form {
+  display: inline;
+}
+
+.parent-reports-child form div {
+  display: inline;
+  cursor: pointer;
+}
+
+div.question-viewExample {
+  background: url("images/btn_example_bg.png") no-repeat scroll center center transparent;
+  float: right;
+  height: 50px;
+  line-height: 1.2em;
+  margin: 0 10px;
+  padding: 15px 0 0 45px;
+  text-align: left;
+  width: 84px;
+  font-size: 1em;
+  font-weight: bold;
+  color: #2B6CBE;
+  cursor: pointer;
+}
+
+div.question-text p {
+  /*display: inline-block;*/
+  font-size: 1em;
+  margin: 0;
+}
+
+div.question-text td {
+  font-size: 1em;
+}
+
+div.question-text table {
+  width: auto;
+}
+
+div.question-text .question-answer {
+  max-width: 800px;
+  vertical-align: middle;
+}
+
+
+.attempt-markAnswers {
+  background: url("images/btn_mark_bg.png") no-repeat scroll center center transparent;
+  border: 0 none;
+  float: left;
+  height: 48px;
+  margin-bottom: 20px;
+  margin-right: 10px;
+  margin-top: -35px;
+  padding: 0 0 0 25px;
+  width: 268px;
+  font-size: 1.2em;
+  font-weight: normal;
+  cursor: pointer;
+}
+
+.attempt-pauseButton {
+  background: url("images/btn_pause_bg.png") no-repeat scroll center center transparent;
+  border: 0 none;
+  float: left;
+  height: 48px;
+  margin-bottom: 20px;
+  margin-right: 10px;
+  margin-top: -35px;
+  padding: 0 0 0 15px;
+  width: 128px;
+  font-size: 1.2em;
+  font-weight: normal;
+  cursor: pointer;
+}
+
+.attempt-quitButton {
+  background: url("images/btn_quit_bg.png") no-repeat scroll center center transparent;
+  border: 0 none;
+  float: left;
+  height: 48px;
+  margin-bottom: 20px;
+  margin-right: 10px;
+  margin-top: -35px;
+  padding: 0 0 0 15px;
+  width: 128px;
+  font-size: 1.2em;
+  font-weight: normal;
+  cursor: pointer;
+}
+
+.attempt-submitbuttons {
+  clear: both;
+  margin: 50px 0 0 10px;
+  text-align: center;
+}
+
+.child-home div.mockTestContinueButton {
+  margin: 100px 0 0 600px !important;
+}
+
+.fraction {
+    background: url("images/fraction_bg.png") no-repeat scroll center top transparent;
+    height: 100px;
+    padding: 18px 20px;
+    width: 82px;
+    display: inline-block;
+    vertical-align: middle
+}
+.fraction .numerator {
+    display: block;
+  width: 80px;
+  text-align: center;
+  height: 38px;
+}
+.fraction .numerator input {
+    font-size: 1.3em;
+    margin-left: 4px;
+    margin-top: 0 !important;
+    background: url("images/input_bg.png") no-repeat scroll left top #FFFFFF;
+    border: 2px solid #3867A3;
+    height: 23px;
+    padding: 0 0 6px;
+    text-align: center;
+    width: 70px !important;
+}
+.fraction .fractionline {
+    display: block;
+    background: url("images/fraction_divider.png") no-repeat scroll center top transparent;
+    height: 6px;
+    margin: 9px 0;
+}
+
+
+.staticfraction {
+  display: inline-block;
+    padding: 0;
+    vertical-align: middle;
+    height: 30px;
+}
+.staticfraction .numerator, .staticfraction .denominator {
+  display: block;
+  font-size: 14px;
+  line-height: 14px;
+  text-align: center;
+  padding: 0 4px;
+}
+.staticfraction .numerator {
+    vertical-align: top;
+}
+.staticfraction .denominator {
+    vertical-align: bottom;
+}
+.staticfraction .fractionline {
+  display: block;
+    background: #a8c7d5 url("images/fraction_divider.png") no-repeat scroll center top;
+    height: 1px;
+    margin: 1px 0;
+    vertical-align: middle;
+}
+.fraction .icon {
+  float: right;
+  margin: 7px -17px 0 0;
+}
