@@ -20,7 +20,8 @@
   }
 }
 
-.coursePracticeAndMockResults{
+.coursePracticeAndMockResults,
+#report-list{
   background-color: $blue;
 }
 
@@ -113,4 +114,29 @@ body{
   .parent-reports .questionBottomCurve, .try-it .questionBottomCurve, .child-home .questionBottomCurve{
     width: 100%;
   }
+}
+
+.testIntroMleft{
+  width: 70%;
+  float: left;
+}
+
+.testIntroMright{
+  width: 30%;
+  position: relative;
+  float: right;
+}
+
+.testIntroText {
+  width: 80%;
+  color: $blue;
+  & span{
+    font-size: 1.5em !important;
+    line-height: 1.5 !important;
+    color: $blue;
+  }
+}
+
+.question {
+  margin-bottom: 50px;
 }

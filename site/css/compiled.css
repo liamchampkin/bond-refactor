@@ -1478,11 +1478,6 @@ div.bond-child-instructions {
   text-align: center;
   width: 65px; }
 
-.parent-reports h2.quiz-main-start,
-.try-it h2.quiz-main-start,
-.child-home h2.quiz-main-start {
-  line-height: 2em; }
-
 .parent-reports h2.quiz-main .quiz-main-title,
 .try-it h2.quiz-main .quiz-main-title,
 .child-home h2.quiz-main .quiz-main-title {
@@ -2131,6 +2126,11 @@ a.back-to-top {
   color: white;
   border: 1px solid black; }
 
+.try-it div.startTestButton, .child-home div.startTestButton {
+  width: 300px;
+  padding: 20px 0;
+  font-size: 2em; }
+
 .widget .btn {
   display: block;
   font-size: 1.7em;
@@ -2470,7 +2470,8 @@ span.hikashop_product_name {
 .child-home #quiz-list tr:nth-child(even), .child-home #home-table tr:nth-child(even), .child-home #report-list tr:nth-child(even) {
   background: #E3EDF2; }
 
-.coursePracticeAndMockResults {
+.coursePracticeAndMockResults,
+#report-list {
   background-color: #00529C; }
 
 body .parent-reports .bestGrade, body .try-it .bestGrade, body .child-home .bestGrade {
@@ -2547,6 +2548,26 @@ body .parent-reports .course-row-hover, body .try-it .course-row-hover, body .ch
 .bond-page .parent-reports .questionTopCurve, .bond-page .try-it .questionTopCurve, .bond-page .child-home .questionTopCurve,
 .bond-page .parent-reports .questionBottomCurve, .bond-page .try-it .questionBottomCurve, .bond-page .child-home .questionBottomCurve {
   width: 100%; }
+
+.testIntroMleft {
+  width: 70%;
+  float: left; }
+
+.testIntroMright {
+  width: 30%;
+  position: relative;
+  float: right; }
+
+.testIntroText {
+  width: 80%;
+  color: #00529C; }
+  .testIntroText span {
+    font-size: 1.5em !important;
+    line-height: 1.5 !important;
+    color: #00529C; }
+
+.question {
+  margin-bottom: 50px; }
 
 body, td, li, input, select, p, span, h1, h2, h3, h4 {
   font-family: Helvetica, sans-serif; }
