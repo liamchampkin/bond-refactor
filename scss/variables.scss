@@ -5,6 +5,7 @@ $dark-grey:								#414242;
 $light-grey:							#e6e6e6;
 $black:										#000;
 $white:										#fff;
+$light-blue:							#f1f7fe;
 
 $oup-blue:								#000066;
 
@@ -14,8 +15,11 @@ $red:											#EE1941;
 $green:										#ADBE25;
 $yellow:									#FDB813;
 
+$amber:										#EDA900;
+
 $results-green:						#82BC00;
 $results-amber:						#EDA900;
+$results-red:							$red;
 
 //subjects
 $english:									$teal;
@@ -55,3 +59,5 @@ $body-backround:					#FBFBFB;
 
 $footer-background:       $oup-blue; 
 $footer-link:							$white;
+
+$question-border-size:		3px;

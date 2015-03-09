@@ -101,7 +101,8 @@ input.btn-secondary,
 a.btn-secondary,
 input.bond-register-button,
 input#id_cancel,
-.submitButtonBlue {
+.submitButtonBlue,
+.question-answers-report-problem {
   background-color: $secondar-button-color;
   border: none;
   color: $dark-grey;
@@ -113,7 +114,8 @@ input.btn-secondary:hover,
 input.bond-register-button:hover,
 input#id_cancel:hover,
 a.btn-secondary:hover,
-.submitButtonBlue:hover {
+.submitButtonBlue:hover,
+.question-answers-report-problem:hover {
   background-color: $secondar-button-hover;
 }
 
@@ -171,4 +173,42 @@ body #hikashop_address_form_span_iframe .hikashop_cart_input_button:hover{
 
 option{
   font-size: 1.5em;
+}
+
+.attempt-pauseButton,
+.attempt-markAnswers,
+.question-answers-report-problem {
+  border: 0 none;
+  float: left;
+  padding: 8px 10px;
+  font-size: 1em;
+  font-weight: normal;
+  cursor: pointer;
+  margin-bottom: 50px;
+  color: black;
+}
+
+.question-answers-report-problem{
+  a{
+    color: black;
+  }
+}
+
+.attempt-submitbuttons{
+  float: left;
+  margin-top: 85px;
+}
+
+.attempt-pauseButton{
+  background-color: $results-green;
+}
+
+.attempt-markAnswers{
+  background-color: $amber;
+  margin-left: 20px;
+}
+
+.question-answers-report-problem{
+  float: right;
+  margin-top: 85px;
 }

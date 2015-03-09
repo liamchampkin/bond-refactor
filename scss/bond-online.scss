@@ -14,6 +14,7 @@
       }
   }
   #quiz-list, #home-table, #report-list{
+    border: 1px solid $border-color;
     tr:nth-child(even) {
       background: $table-even-color;
     }   
@@ -139,4 +140,246 @@ body{
 
 .question {
   margin-bottom: 50px;
+}
+
+table#report-list{
+  tr:nth-of-type(1){
+    color: white;
+    strong{
+      font-weight: normal;
+    }
+    span{
+      color: white;
+    }
+  }
+}
+
+.r2_c2 > table {
+  background-color: white;
+  border: 1px solid $border-color;
+  padding: 0 10px;
+  td{
+    height: 60px;
+  }
+}
+
+.child-home .mocktestTable {
+  clear: both;
+  float: right;
+  width: 30%;
+}
+
+.mockTestHeader {
+  background: $blue;
+  color: #ffffff;
+  font-size: 1em;
+  font-weight: normal;
+  line-height: 1.5;
+  padding: 5px 11px 2px;
+}
+
+h2.quiz-main{
+  clear: both;
+}
+
+.quiz-main-title{
+  width: 80%;
+}
+
+.try-it-reviewStatus,
+.child-home-reviewStatus,
+.child-home-mocktest-reviewStatus,
+.parent-reports-reviewStatus {
+  background-color: white;
+  margin: 0;
+  padding: 10px;
+  border: 1px solid #dadada;
+}
+
+.question-info {
+  background-color: $blue;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  color: white;
+  display: block;
+  float: left;
+  font-size: 1.5em;
+  height: 39px;
+  line-height: 48px;
+  position: relative;
+  text-align: center;
+  top: -38px;
+  width: 50px;
+  z-index: 99999;
+}
+
+.question-text {
+  background-color: $light-blue;
+  border: $question-border-size solid #00529c;
+  padding: 3em;
+  position: relative;
+  p{
+    max-width: 100%;
+  }
+}
+
+.question-answers-feedbackBox {
+  position: relative;
+}
+
+.question-answers-correct-middle,
+.question-answers-incorrect-middle,
+.question-text{ 
+  margin-top: 80px;
+}
+
+.question-answers-multinput{
+  border-bottom: none;
+}
+    
+
+.question-answers-correct-middle,
+.question-answers-incorrect-middle{
+  padding: 0 2em 2em;
+  border: $question-border-size solid;
+  background-color: white;
+  p{
+    font-size: 1.53em;
+    max-width: 100%;
+  }
+  strong{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    color: white;
+    font-weight: normal;
+    left: 0;
+    padding: 9px 20px 5px;
+    position: absolute;
+    top: -40px;
+    font-size: 1.2em;
+    line-height: 1.5;
+  }
+}
+
+.question-answers-correct-middle{
+  border-color: $results-green;
+  strong{
+    background-color: $results-green;
+  }
+}
+
+.question-answers-incorrect-middle{
+  border-color: $results-red;
+  strong{
+    background-color: $results-red;
+  }
+}
+
+.question-answers-freetextbond input {
+  border: 1px solid $blue;
+  margin: 3px auto;
+  padding: 0 0 4px;
+  font-size: 1em;
+}
+
+div.question-answers {
+  clear: both;
+  padding: 0 10px;
+  border: $question-border-size solid $blue;
+  border-top: none;
+  background-color: $light-blue;
+}
+
+div.question-answers td  {
+  border: 1px solid $border-color;
+  height: 40px;
+  padding-top: 10px;
+  background-color: white;
+}
+.quiz-main{
+  .attempt-next-previous{
+    position: relative;
+    top: -50px;
+  }
+}
+
+.attempt-next_off,
+.attempt-next,
+.attempt-last {
+  background-color: $blue;
+  color: white;
+}
+
+.attempt-previous_off,
+.attempt-next_off {
+  cursor: default;
+  opacity: 0.3;
+}
+
+.attempt-previous_off,
+.attempt-first, .attempt-previous {
+  background-color: $blue;
+  color: white;
+}
+
+.try-it .attempt-paging,
+.child-home .attempt-paging,
+.parent-reports .attempt-paging {
+
+}
+
+.attempt-page-list {
+  width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.attempt-thispage,
+.attempt-page{
+  display: block;
+  cursor: pointer;
+  border-radius: 50%;
+  float: left;
+  height: 40px;
+  width: 40px;
+  line-height: 2.2;
+  margin: 0 5px;
+  font-size: 1.2em;
+}
+
+.attempt-page {
+  background-color: $grey;
+  cursor: pointer;
+  &:hover{
+    background-color: $dark-grey;
+    color: white;
+  }
+}
+
+.attempt-paging.noprint {
+    margin: 0 auto;
+    width: 600px;
+}
+
+.attempt-paging{
+  .attempt-previous,
+  .attempt-next,
+  .attempt-previous_off,
+  .attempt-next_off{
+    display: none;
+  }
+}
+
+.attempt-previous-ten{
+  display: none;
+}
+
+.attempt-thispage{
+  color: white;
+  background-color: $blue;
+}
+
+.attempt-page-scroll {
+  overflow: hidden;
+  width: 550px;
 }

@@ -359,3 +359,73 @@ ul.joomla-nav-news{
 .courseJump {
   float: right;
 }
+
+.online-advert{
+  margin-bottom: 40px;
+  padding: 1em;
+  width: 265px;
+  .btn{
+    border-radius: 5px;
+    border: none;
+  }
+}
+
+.advert-blue{
+  background-color: $blue;
+  li,p,span,blockquote{
+    color: white;
+  }
+  a.btn{
+    background-color: white;
+    color: $blue;
+  }
+}
+
+.advert-white{
+  border: 3px solid $blue;
+  border-radius: 15px;
+  li,p,span,blockquote{
+    color: $blue;
+  }
+  a.btn{
+    background-color: $blue;
+    color: white;
+  }
+  &:hover{
+    background-color: $light-blue;
+  }
+}
+
+.brand-guidelines{
+  .online-advert{
+    float: left;
+    margin-right: 40px;
+  }
+}
+
+.bond-logo-advert, .online-logo-advert{
+  height: 61px;
+}
+
+.bond-logo-advert{
+  margin-right: 0.5em;
+}
+
+
+.bond-radius{
+  border-bottom-left-radius: $border-radius;
+  border-top-right-radius: $border-radius;
+  border-top-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+.full-radius{
+  border-radius: $border-radius;
+}
+
+.bottom-radius{
+  border-bottom-left-radius: $border-radius;
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+  border-bottom-right-radius: $border-radius;
+} 

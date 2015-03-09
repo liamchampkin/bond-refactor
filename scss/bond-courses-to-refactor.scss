@@ -96,13 +96,6 @@
   width: 65px;
 }
 
-.parent-reports h2.quiz-main .quiz-main-title,
-.try-it h2.quiz-main .quiz-main-title,
-.child-home h2.quiz-main .quiz-main-title {
-  float: left;
-  padding-top: 10px;
-}
-
 
 .parent-reports .mostRecent {
   font-size: 0.9em;
@@ -225,14 +218,6 @@ table.question-text {
   padding:0;
 }
 
-.try-it-reviewStatus,
-.child-home-reviewStatus,
-.child-home-mocktest-reviewStatus,
-.parent-reports-reviewStatus {
-  background-color: #FFFFCC;
-  margin: -12px 5px;
-}
-
 .try-it-reviewStatus table,
 .child-home-reviewStatus table,
 .child-home-mocktest-reviewStatus table,
@@ -263,21 +248,7 @@ td.mocktest-reviewStatus-buttons>form {
   float: right;
 }
 
-.try-it .attempt-paging,
-.child-home .attempt-paging,
-.parent-reports .attempt-paging {
-  background: url("images/navigation_bar_bg.png") no-repeat scroll center center transparent;
-  border: 0 none;
-  height: 43px;
-  padding-left: 15px;
-  padding-right: 10px;
-  position: relative;
-  text-align: left;
-  width: 956px;
-  font-size: 1.4em;
-  margin: 10px 0 0 0;
-  clear: both;
-}
+
 
 .attempt-paging .attempt-previous, .attempt-paging .attempt-previous_off {
   float: right;
@@ -288,31 +259,6 @@ td.mocktest-reviewStatus-buttons>form {
   float: right;
   margin: -4px 0 0 0;
   text-align: center;
-}
-
-.attempt-page-list {
-  background: url("images/paging_background.png") no-repeat scroll center center transparent;
-  width: 522px;
-  margin: 0 auto;
-  padding-top: 6px;
-  text-align: center;
-  height: 38px;
-}
-
-.attempt-thispage {
-  background-color: #d1e1e9;
-  border: 1px solid #90B8CA;
-  color: #77A7BF;
-  padding: 4px 8px;
-  cursor: default;
-}
-
-.attempt-page {
-  background-color: #FFFFFF;
-  border: 1px solid #FFFFFF;
-  color: #2B6CBE;
-  padding: 4px 8px;
-  cursor: pointer;
 }
 
 .attempt-next-previous-left {
@@ -348,66 +294,9 @@ h2 .attempt-previous_off, h2 .attempt-next_off,
 h2 .attempt-first, h2 .attempt-previous, h2 .attempt-next {
 }
 
-.attempt-previous_off,
-.attempt-next_off {
-  color: #E3EAEB;
-  cursor: default;
-}
-
-.attempt-previous_off,
-.attempt-first, .attempt-previous {
-  background: url("images/btn_back_bg.png") no-repeat scroll center center transparent;
-}
-
-.attempt-next_off,
-.attempt-next,
-.attempt-last {
-  background: url("images/btn_next_bg.png") no-repeat scroll center center transparent;
-}
-
-.attempt-previous-ten {
-  float: left;
-  background: transparent url("images/btn_backwards.png") top left no-repeat;
-  width: 32px;
-  height: 32px;
-  margin: 1px 8px;
-  cursor: pointer;
-}
-.attempt-next-ten {
-  float: right;
-  background: transparent url("images/btn_forwards.png") top right no-repeat;
-  width: 32px;
-  height: 32px;
-  margin: 1px 8px;
-  cursor: pointer;
-}
-.attempt-page-scroll {
-  overflow: hidden;
-  padding: 6px;
-  width: 350px;
-}
 .attempt-of-howmany {
   float: right;
   padding: 6px;
-}
-
-.question-info {
-  background: url("images/q_bg.png") no-repeat scroll center center transparent;
-  display: block;
-  height: 48px;
-  padding: 0 20px;
-  text-align: center;
-  width: 50px;
-  color: #575757;
-  font-size: 35px;
-  line-height:48px;
-  float: left;
-}
-
-div.question-text {
-  font-size: 1.4em;
-  text-align: left;
-  line-height: 1.4em;
 }
 
 div.question-text img {
@@ -418,36 +307,15 @@ div.question-text input {
   /*margin-top: 30px;*/
 }
 
-div.question-answers-freetextbond {
-  float: left;
-  margin-left: 55px;
-  width: 85%;  
-}
-div.question-answers-multinput {
-  float: left;
-  margin: 0 0 15px 55px;
-  width: auto;
-  max-width: 85%;
-}
+
 div.question-example {
   float: right;
   width: 150px;
 }
 
-div.question-answers {
-  clear: both;
-  padding: 0 10px;
-}
-
 div.question-answers table {
   border-spacing: 10px;
   width: 100%;
-}
-
-div.question-answers td  {
-  border: 1px solid #CDCDCD;
-  height: 40px;
-  padding-top: 10px;
 }
 
 div.question-answers td label {
@@ -461,80 +329,6 @@ div.question-answers tr  {
   background: url("images/option_gradient_bg.png") repeat-x scroll left bottom;
   width: 100%;
 }
-
-.question-answers-feedbackBox {
-  font-size: 1.1em;
-  border: medium none;
-  font-size: 1.6em;
-  margin-left: 35px;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  width: 897px;
-  clear: both;
-}
-
-.question-answers-correct-top,
-.question-answers-incorrect-top {
-  padding: 4px;
-  width: 897px;
-}
-
-.question-answers-correct-top {
-  background: url("images/correctTop.png") no-repeat scroll left bottom transparent;
-}
-
-.question-answers-incorrect-top {
-  background: url("images/incorrectTop.png") no-repeat scroll left bottom transparent;
-}
-
-.question-answers-correct-middle,
-.question-answers-incorrect-middle {
-  margin: 0;
-  min-height: 50px;
-  padding: 10px 0 10px 70px;
-  width: 827px;
-}
-
-.question-answers-correct-middle p,
-.question-answers-incorrect-middle p {
-  margin: 1.5em 0;
-  line-height: 1.4em;
-}
-.question-answers-correct-middle {
-  background: url("images/correctMiddle.png") no-repeat scroll 0 0 #EFFADE;
-}
-
-.question-answers-incorrect-middle {
-  background: url("images/incorrectMiddle.png") no-repeat scroll 0 0 #FBEEE6;
-}
-
-.question-answers-correct-bottom,
-.question-answers-incorrect-bottom {
-  padding: 4px;
-  width: 897px;
-}
-
-.question-answers-correct-bottom {
-  background: url("images/correctBottom.png") no-repeat scroll left top transparent;
-}
-
-.question-answers-incorrect-bottom {
-  background: url("images/incorrectBottom.png") no-repeat scroll left top transparent;
-}
-
-.question-answers-report-problem {    
-  margin: 0;
-  padding-left: 10px;
-}
-
-.question-answers-freetextbond input {
-  background: url("images/input_bg.png") no-repeat scroll left top #FFFFFF;
-  border: 1px solid #3867A3;
-  margin: 3px auto;
-  padding: 0 0 4px;
-  font-size: 1em;
-}
-
 .question-answers-multibond label {
   top: 0;
 }
@@ -561,13 +355,9 @@ div.question-viewExample {
   font-weight: bold;
   color: #2B6CBE;
   cursor: pointer;
+  z-index: 1;
 }
 
-div.question-text p {
-  /*display: inline-block;*/
-  font-size: 1em;
-  margin: 0;
-}
 
 div.question-text td {
   font-size: 1em;
@@ -583,35 +373,9 @@ div.question-text .question-answer {
 }
 
 
-.attempt-markAnswers {
-  background: url("images/btn_mark_bg.png") no-repeat scroll center center transparent;
-  border: 0 none;
-  float: left;
-  height: 48px;
-  margin-bottom: 20px;
-  margin-right: 10px;
-  margin-top: -35px;
-  padding: 0 0 0 25px;
-  width: 268px;
-  font-size: 1.2em;
-  font-weight: normal;
-  cursor: pointer;
-}
 
-.attempt-pauseButton {
-  background: url("images/btn_pause_bg.png") no-repeat scroll center center transparent;
-  border: 0 none;
-  float: left;
-  height: 48px;
-  margin-bottom: 20px;
-  margin-right: 10px;
-  margin-top: -35px;
-  padding: 0 0 0 15px;
-  width: 128px;
-  font-size: 1.2em;
-  font-weight: normal;
-  cursor: pointer;
-}
+
+
 
 .attempt-quitButton {
   background: url("images/btn_quit_bg.png") no-repeat scroll center center transparent;
@@ -626,12 +390,6 @@ div.question-text .question-answer {
   font-size: 1.2em;
   font-weight: normal;
   cursor: pointer;
-}
-
-.attempt-submitbuttons {
-  clear: both;
-  margin: 50px 0 0 10px;
-  text-align: center;
 }
 
 .child-home div.mockTestContinueButton {
