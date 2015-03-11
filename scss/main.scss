@@ -46,10 +46,20 @@
 }
 
 /*register page*/
+#hikashop_checkout_cart th,
 th {
   background-color: $blue;
   color: white;
   padding: 0.5em;
+}
+
+body .hikashop_checkout_billing_address, body .hikashop_checkout_address_right_part, body .hikashop_checkout_address_left_part {
+  border: 1px solid $blue;
+  background-color: white;
+}
+
+.hikashop_checkout_page {
+  margin-bottom: 50px;
 }
 
 .comment {
@@ -306,7 +316,7 @@ ul.joomla-nav-news{
   font-size: 1em;
   background-color: $footer-background;
   padding: 10px;
-  height: 150px;
+  height: 175px;
 }
 
 #pageFooter #footerLeft {

@@ -63,7 +63,8 @@ a.btn.caret-after:after {
 }
 
 input[type="submit"],
-a.btn-default{
+a.btn-default,
+body #hikashop_checkout_next_button{
   background: transparent;
   background-color: $primary-button-color;
   border: medium none;

@@ -625,12 +625,12 @@ table.summaryTable .r2_c2 {
   margin-left: 40px; }
 
 .welcomeMessage {
-  background: url("images/tutor.png") no-repeat scroll 0 0 transparent;
+  background: url("/images/2015/bond_icon_100x100px.png") no-repeat scroll 0 0 transparent;
   min-height: 120px; }
 
 .summaryTable {
   border-collapse: collapse;
-  margin-left: 100px; }
+  margin-left: 130px; }
 
 .child-home .summaryTable {
   width: 575px; }
@@ -1817,7 +1817,8 @@ a.btn.caret-after:after {
   padding: 0 0 0 25px; }
 
 input[type="submit"],
-a.btn-default {
+a.btn-default,
+body #hikashop_checkout_next_button {
   background: transparent;
   background-color: #414242;
   border: medium none;
@@ -2657,10 +2658,18 @@ label {
   padding: 2em; }
 
 /*register page*/
+#hikashop_checkout_cart th,
 th {
   background-color: #00529C;
   color: white;
   padding: 0.5em; }
+
+body .hikashop_checkout_billing_address, body .hikashop_checkout_address_right_part, body .hikashop_checkout_address_left_part {
+  border: 1px solid #00529C;
+  background-color: white; }
+
+.hikashop_checkout_page {
+  margin-bottom: 50px; }
 
 .comment {
   font-size: 84%; }
@@ -2876,7 +2885,7 @@ ul.joomla-nav-news {
   font-size: 1em;
   background-color: #000066;
   padding: 10px;
-  height: 150px; }
+  height: 175px; }
 
 #pageFooter #footerLeft {
   float: left;
