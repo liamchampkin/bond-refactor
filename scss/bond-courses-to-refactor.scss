@@ -39,16 +39,6 @@
   background: #EAF2F7;
 }
 
-.parent-reports .homequiztable1,
-.try-it .homequiztable1,
-.child-home .homequiztable1 {
-  font-size: 1.3em;
-  font-weight: bold;
-  padding-left: 10px;
-  vertical-align: middle;
-  width: 20%;
-}
-
 .try-it .homequiztable1,
 .child-home .homequiztable1 {
   font-size: 1.1em;
@@ -105,7 +95,6 @@
 .try-it table.testHistory td,
 .child-home table.testHistory td,
 .parent-reports table.testHistory td {
-  border-bottom: 3px solid #E9ECED;
   font-size: 1.1em;
 }
 
@@ -208,15 +197,6 @@ table.question-text {
   vertical-align: middle;  
 }
 
-.parent-reports-header {
-  margin:10px 0 0 5px;
-  padding:0 0 10px 6px;
-}
-
-.parent-reports-header h1 {
-  margin:0;
-  padding:0;
-}
 
 .try-it-reviewStatus table,
 .child-home-reviewStatus table,
@@ -232,9 +212,6 @@ table.question-text {
   font-weight: bold;
 }
 
-.child-home-mocktest-reviewStatus  .display_Result {
-  float: right;
-}
 .child-home-mocktest-reviewStatus .reviewStatusText {
   display: block;
   float: left;

@@ -1,25 +1,25 @@
-.child-home{
-  td.homequiztable1 {
-    font-size: 1em;
-    font-weight: normal;
-    padding-left: 10px;
-    width: 26%;
-  }
-  .homequiztableheaderrow {
-    background: $blue;
-    color: #ffffff;
-      td {
-        padding: $table-header-padding;
-        font-weight: normal;
-      }
-  }
-  #quiz-list, #home-table, #report-list{
-    border: 1px solid $border-color;
-    tr:nth-child(even) {
-      background: $table-even-color;
-    }   
-  }
+
+td.homequiztable1 {
+  font-size: 1em;
+  font-weight: normal;
+  padding-left: 10px;
+  width: 26%;
 }
+.homequiztableheaderrow {
+  background: $blue;
+  color: #ffffff;
+    td {
+      padding: $table-header-padding;
+      font-weight: normal;
+    }
+}
+#quiz-list, #home-table, #report-list{
+  border: 1px solid $border-color;
+  tr:nth-child(even) {
+    background: $table-even-color;
+  }   
+}
+
 
 .coursePracticeAndMockResults,
 #report-list{
@@ -247,32 +247,14 @@ h2.quiz-main{
     font-size: 1.53em;
     max-width: 100%;
   }
-  strong{
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    color: white;
-    font-weight: normal;
-    left: 0;
-    padding: 9px 20px 5px;
-    position: absolute;
-    top: -40px;
-    font-size: 1.2em;
-    line-height: 1.5;
-  }
 }
 
 .question-answers-correct-middle{
   border-color: $results-green;
-  strong{
-    background-color: $results-green;
-  }
 }
 
 .question-answers-incorrect-middle{
   border-color: $results-red;
-  strong{
-    background-color: $results-red;
-  }
 }
 
 .question-answers-freetextbond input {
@@ -336,15 +318,7 @@ div.question-answers td  {
 
 .attempt-thispage,
 .attempt-page{
-  display: block;
-  cursor: pointer;
-  border-radius: 50%;
-  float: left;
-  height: 40px;
-  width: 40px;
-  line-height: 2.2;
-  margin: 0 5px;
-  font-size: 1.2em;
+
 }
 
 .attempt-page {
@@ -361,19 +335,6 @@ div.question-answers td  {
     width: 600px;
 }
 
-.attempt-paging{
-  .attempt-previous,
-  .attempt-next,
-  .attempt-previous_off,
-  .attempt-next_off{
-    display: none;
-  }
-}
-
-.attempt-previous-ten{
-  display: none;
-}
-
 .attempt-thispage{
   color: white;
   background-color: $blue;
@@ -381,5 +342,70 @@ div.question-answers td  {
 
 .attempt-page-scroll {
   overflow: hidden;
-  width: 550px;
+}
+
+.my-subscriptions {
+  background-color: white;
+  margin-right: 2em;
+  padding: 2em;
+}
+
+.my-subscriptions .gbSmall .genericMiddle {
+  width: 602px;
+  padding: 5px;
+  border: 1px solid $border-color;
+}
+
+.try-it .attempt-paging,
+.child-home .attempt-paging,
+.parent-reports .attempt-paging {
+  border: 0 none;
+  height: 43px;
+  padding-left: 15px;
+  padding-right: 10px;
+  position: relative;
+  text-align: left;
+  width: 956px;
+  font-size: 1.4em;
+  margin: 10px 0 0 0;
+  clear: both;
+}
+
+.attempt-page-list {
+  width: 522px;
+  margin: 0 auto;
+  padding-top: 6px;
+  text-align: center;
+  height: 38px;
+}
+
+.attempt-thispage {
+  background-color: $blue;
+  border: 1px solid $blue;
+  color: white;
+  padding: 4px 8px;
+  cursor: default;
+}
+
+.attempt-page {
+  background-color: #FFFFFF;
+  border: 1px solid $border-color;
+  color: $blue;
+  padding: 5px 8px 3px; 
+  cursor: pointer;
+}
+
+.parent-reports-header{
+  h1{
+    font-size: 3em !important;
+    line-height: 1.5;
+    max-width: 820px;
+  }
+}
+
+.parent-reports{
+  background-color: white;
+  border: 1px solid $border-color;
+  margin: 1em 0;
+  padding: 2em;
 }

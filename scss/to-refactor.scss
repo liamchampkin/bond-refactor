@@ -229,18 +229,20 @@ body .container{
 }
 
 #mainHeader {
-    float: left;
-    height: 146px;
-    margin: auto;
-    position: relative;
-    text-align: left;
-    width: 100%;
+  float: left;
+  height: 146px;
+  margin: auto;
+  position: relative;
+  text-align: left;
+  width: 100%;
 }
 #mainHeader #veryTop {
   min-height: 25px;
   padding-bottom: 5px;
   padding-left: 15px;
   padding-right: 10px;
+  position: absolute;
+  right: 0;
 }
 
 #mainHeader #veryTop {
@@ -330,10 +332,11 @@ body .container{
 }
 
 #mainHeader #mainBanner {
-  height: 106px;
+  height: 128px;
   width: 20%;
   float: left;
   background: none;
+  margin-top: 20px;
 }
 
 #mainHeader #mainBanner img{
@@ -348,7 +351,7 @@ body .container{
   width: 79%;
   float: right;
   border-bottom: 2px solid $blue; /*blue color*/
-  margin-top: 5.7%;
+  margin-top: 8.3%;
 }
 
 #mainNavBar ul {
@@ -513,38 +516,6 @@ body .container{
   min-height:600px;
 }
 
-.genericBox {
-  margin-bottom: 10px;
-  margin-left: auto;
-  margin-right: auto;
-  width: 908px;
-}
-
-.gbSmall {
-  width: 612px;
-}
-
-.gbSmall .genericTop {
-  background: url("images/paymentHeaderSmall.png") no-repeat scroll 0 0 transparent;
-  width: 612px;
-}
-
-.gbSmall .genericMiddle {
-  background: url("images/paymentMiddleSmall.png") repeat-y scroll 0 0 transparent;
-  width: 562px;
-  padding: 25px;
-}
-
-.genericBottom {
-  background: url("images/paymentBottomSmall.png") no-repeat scroll 0 0 transparent;
-  padding: 7px 0;
-  width: 908px;
-}
-
-.gbSmall .genericBottom {
-  background: url("images/paymentBottomSmall.png") no-repeat scroll 0 0 transparent;
-  width: 612px;
-}
 
 /****************/
 /* Parent login */
@@ -939,26 +910,9 @@ a.english {
   text-align:center;
 }
 
-.free-resources .important {
-  /*border: 1px solid #333333;*/
-  margin: 24px 0;
-  padding: 10px;
-}
-
-.free-resources  span.important-title {
-  color: #333333;
-  background: none repeat scroll 0 0 #FFFFFF;
-  display: block;
-  font-size: 120%;
-  font-weight: bold;
-  margin-top: -24px;
-  padding: 0;
-  position: absolute;
-}
-
 .free-resources .link_list li,
 .for_parents .link_list li {
-  background-image: url("images/icon_resource.gif");
+  background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iTGF5ZXJfMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeD0iMHB4IiB5PSIwcHgiIHdpZHRoPSIxOXB4IiBoZWlnaHQ9IjE5cHgiIHZpZXdCb3g9IjAgMCAxOSAxOSIgZW5hYmxlLWJhY2tncm91bmQ9Im5ldyAwIDAgMTkgMTkiIHhtbDpzcGFjZT0icHJlc2VydmUiPjx0ZXh0IHRyYW5zZm9ybT0ibWF0cml4KDEgMCAwIDEgMS40MDYyIDE2LjI4MDMpIiBmaWxsPSIjMDA1MjlDIiBmb250LWZhbWlseT0iJ0ZvbnRBd2Vzb21lJyIgZm9udC1zaXplPSIxOSI+74WcPC90ZXh0Pjwvc3ZnPg==);
   background-repeat: no-repeat;
   font-size: 16px;
   list-style-type: none;
@@ -1320,10 +1274,6 @@ input.submitButtonBlue, input.submitButtonBlueSmall, input.submitButtonBlueTiny{
   margin-top: -6px;
 }
 
-div.submitButtonBlue, div.submitButtonBlueSmall, div.submitButtonBlueTiny, #Kunena div.kbutton, #Kunena .kbuttoncomm, #Kunena .kbuttonuser {
-  padding-top: 8px;
-}
-
 .centredbutton {
   margin: 0 auto;
 }
@@ -1337,20 +1287,11 @@ div.submitButtonBlue, div.submitButtonBlueSmall, div.submitButtonBlueTiny, #Kune
   text-align:center;
 }
 
-.my-subscriptions .submitButtonBlue {
-  padding-top: 6px;
-  margin-top: 0;
-}
-
 .renew-form .my-subscriptions .submitButtonBlue {
   padding-top: 0;
   margin-top: 0;
 }
 
-.my-subscriptions .gbSmall .genericMiddle {
-  width: 602px;
-  padding: 5px;
-}
 
 .my-subscriptions tr hr {
   height: 4px;
