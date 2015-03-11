@@ -363,10 +363,15 @@ ul.joomla-nav-news{
 .online-advert{
   margin-bottom: 40px;
   padding: 1em;
-  width: 265px;
   .btn{
     border-radius: 5px;
     border: none;
+    width: 92%;
+  }
+  p.sub-head{
+    font-weight: bold;
+    font-size: 1.3em;
+    margin-bottom: 5px;
   }
 }
 
@@ -384,6 +389,7 @@ ul.joomla-nav-news{
 .advert-white{
   border: 3px solid $blue;
   border-radius: 15px;
+  background-color: white;
   li,p,span,blockquote{
     color: $blue;
   }
@@ -403,12 +409,13 @@ ul.joomla-nav-news{
   }
 }
 
-.bond-logo-advert, .online-logo-advert{
-  height: 61px;
+.bond-logo-advert{
+  margin-right: 3%;
+  width: 43%;
 }
 
-.bond-logo-advert{
-  margin-right: 0.5em;
+.online-logo-advert{
+  width: 52%;
 }
 
 

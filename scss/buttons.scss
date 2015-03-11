@@ -24,9 +24,12 @@
 }
 
 .try-it div.startTestButton, .child-home div.startTestButton{
-  width: 300px;
-  padding: 20px 0;
+  width: 200px;
+  padding: 10px 0;
   font-size: 2em;
+  &:hover{
+    background-color: black;
+  }
 }
 
 .widget .btn {
@@ -171,10 +174,6 @@ body #hikashop_address_form_span_iframe .hikashop_cart_input_button:hover{
   background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iTGF5ZXJfMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeD0iMHB4IiB5PSIwcHgiIHdpZHRoPSIyMC41NzFweCIgaGVpZ2h0PSIyMC41NzFweCIgdmlld0JveD0iMCAwIDIwLjU3MSAyMC41NzEiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDIwLjU3MSAyMC41NzEiIHhtbDpzcGFjZT0icHJlc2VydmUiPjxnPjxwYXRoIGZpbGw9IiMwMDUyOUMiIGQ9Ik0xOS4xOTIsNS4xMjNjMC45MTksMS41NzYsMS4zNzksMy4yOTcsMS4zNzksNS4xNjNzLTAuNDYsMy41ODctMS4zNzksNS4xNjNjLTAuOTIsMS41NzYtMi4xNjgsMi44MjQtMy43NDQsMy43NDRjLTEuNTc1LDAuOTE5LTMuMjk3LDEuMzc5LTUuMTYyLDEuMzc5Yy0xLjg2NiwwLTMuNTg4LTAuNDYtNS4xNjMtMS4zNzljLTEuNTc2LTAuOTE5LTIuODI0LTIuMTY3LTMuNzQzLTMuNzQ0QzAuNDYsMTMuODczLDAsMTIuMTUyLDAsMTAuMjg2czAuNDYtMy41ODcsMS4zOC01LjE2M2MwLjkxOS0xLjU3NiwyLjE2Ny0yLjgyNCwzLjc0My0zLjc0M0M2LjY5OCwwLjQ2LDguNDIsMCwxMC4yODYsMGMxLjg2NSwwLDMuNTg3LDAuNDYsNS4xNjIsMS4zNzlDMTcuMDI0LDIuMjk5LDE4LjI3MiwzLjU0NywxOS4xOTIsNS4xMjN6IE0xNy4yMSwxMC4yODZjMC0wLjI0MS0wLjA4LTAuNDQyLTAuMjQxLTAuNjAzTDE1Ljc1LDguNDY0bC00Ljg0OS00Ljg0OGMtMC4xNi0wLjE2MS0wLjM2MS0wLjI0MS0wLjYwMy0wLjI0MXMtMC40NDEsMC4wOC0wLjYwMywwLjI0MUw4LjQ3OCw0LjgzNGMtMC4xNiwwLjE2MS0wLjI0MSwwLjM2Mi0wLjI0MSwwLjYwM2MwLDAuMjQxLDAuMDgxLDAuNDQyLDAuMjQxLDAuNjAzbDIuNTMxLDIuNTMxSDQuMjg2Yy0wLjIzMiwwLTAuNDM0LDAuMDg1LTAuNjA0LDAuMjU0Yy0wLjE2OSwwLjE3LTAuMjU0LDAuMzcxLTAuMjU0LDAuNjAzdjEuNzE0YzAsMC4yMzIsMC4wODUsMC40MzMsMC4yNTQsMC42MDNDMy44NTMsMTEuOTE1LDQuMDU0LDEyLDQuMjg2LDEyaDYuNzIzbC0yLjUzMSwyLjUzMWMtMC4xNywwLjE2OS0wLjI1NCwwLjM3MS0wLjI1NCwwLjYwM2MwLDAuMjMyLDAuMDg0LDAuNDMzLDAuMjU0LDAuNjAzbDEuMjE5LDEuMjE5YzAuMTYxLDAuMTYxLDAuMzYxLDAuMjQxLDAuNjAzLDAuMjQxczAuNDQyLTAuMDgxLDAuNjAzLTAuMjQxbDQuODQ5LTQuODQ4bDEuMjE5LTEuMjE5QzE3LjEzLDEwLjcyOCwxNy4yMSwxMC41MjYsMTcuMjEsMTAuMjg2eiIvPjwvZz48L3N2Zz4=);
 }
 
-option{
-  font-size: 1.5em;
-}
-
 .attempt-pauseButton,
 .attempt-markAnswers,
 .question-answers-report-problem {
@@ -186,6 +185,7 @@ option{
   cursor: pointer;
   margin-bottom: 50px;
   color: black;
+  line-height: 1.5;
 }
 
 .question-answers-report-problem{
@@ -196,7 +196,6 @@ option{
 
 .attempt-submitbuttons{
   float: left;
-  margin-top: 85px;
 }
 
 .attempt-pauseButton{
@@ -238,4 +237,45 @@ div.submitButtonBlue, div.submitButtonBlueSmall, div.submitButtonBlueTiny, #Kune
   height: 32px;
   margin: 1px 8px;
   cursor: pointer;
+}
+
+.attempt-paging .attempt-previous, 
+.attempt-paging .attempt-previous_off,
+.attempt-paging .attempt-next, 
+.attempt-paging .attempt-next_off {
+  float: right;
+  margin: 4px 10px 0 0;
+  text-align: center;
+  padding: 0 6px;
+  background-color: transparent;
+  border: 1px solid $blue;
+  color: $blue;
+}
+
+.attempt-next-previous-left,
+.attempt-next-previous-right {
+  float: left;
+  padding-top: 4px;
+}
+
+#attempt-next-previous {
+  float: right;
+  padding-top: 2px;
+}
+.attempt-next-previous {
+  margin-top: 3px;
+}
+
+.attempt-previous_off, .attempt-next_off,
+.attempt-first, .attempt-previous, .attempt-next, .attempt-last {
+  font-size: 16px;
+  font-weight: bold;
+  border: 0 none;
+  margin-right: 10px;
+  padding: 10px 15px;
+  width: 47px;
+  text-decoration: none;
+  color: #0066CC;
+  cursor: pointer;
+  line-height: 2em;
 }

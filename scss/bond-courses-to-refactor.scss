@@ -225,48 +225,6 @@ td.mocktest-reviewStatus-buttons>form {
   float: right;
 }
 
-
-
-.attempt-paging .attempt-previous, .attempt-paging .attempt-previous_off {
-  float: right;
-  margin: -4px 10px 0 0;
-  text-align: center;
-}
-.attempt-paging .attempt-next, .attempt-paging .attempt-next_off {
-  float: right;
-  margin: -4px 0 0 0;
-  text-align: center;
-}
-
-.attempt-next-previous-left {
-  float: left;
-  padding-top: 4px;
-}
-.attempt-next-previous-right {
-  float: right;
-  padding-top: 4px;
-}
-#attempt-next-previous {
-  float: right;
-  padding-top: 2px;
-}
-.attempt-next-previous {
-  margin-top: 3px;
-}
-.attempt-previous_off, .attempt-next_off,
-.attempt-first, .attempt-previous, .attempt-next, .attempt-last {
-  font-size: 16px;
-  font-weight: bold;
-  border: 0 none;
-  margin-right: 10px;
-  padding: 10px 15px;
-  width: 47px;
-  text-decoration: none;
-  color: #0066CC;
-  cursor: pointer;
-  line-height: 2em;
-}
-
 h2 .attempt-previous_off, h2 .attempt-next_off,
 h2 .attempt-first, h2 .attempt-previous, h2 .attempt-next {
 }

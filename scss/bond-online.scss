@@ -227,8 +227,6 @@ h2.quiz-main{
   position: relative;
 }
 
-.question-answers-correct-middle,
-.question-answers-incorrect-middle,
 .question-text{ 
   margin-top: 80px;
 }
@@ -243,6 +241,7 @@ h2.quiz-main{
   padding: 0 2em 2em;
   border: $question-border-size solid;
   background-color: white;
+  margin-top: 40px;
   p{
     font-size: 1.53em;
     max-width: 100%;
@@ -403,9 +402,9 @@ div.question-answers td  {
   }
 }
 
-.parent-reports{
+.parent-reports, .child-home{
   background-color: white;
   border: 1px solid $border-color;
-  margin: 1em 0;
+  margin: 0.5em 0 1em;
   padding: 2em;
 }
