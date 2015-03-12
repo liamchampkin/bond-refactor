@@ -54,12 +54,26 @@ th {
 }
 
 body .hikashop_checkout_billing_address, body .hikashop_checkout_address_right_part, body .hikashop_checkout_address_left_part {
-  border: 1px solid $blue;
+  border: 2px solid $blue;
   background-color: white;
 }
 
 .hikashop_checkout_page {
   margin-bottom: 50px;
+}
+
+body.contentpane{
+  background-color: white;
+    h1{
+    color: $blue !important;
+    font-size: 1em !important;
+  }
+}
+
+body{
+  #hikashop_checkout_page .hikashop_shipping_methods fieldset legend, #hikashop_checkout_page .hikashop_payment_methods fieldset legend, #hikashop_checkout_page .hikashop_checkout_billing_address fieldset legend, #hikashop_checkout_page .hikashop_checkout_address_left_part fieldset legend, #hikashop_checkout_page .hikashop_checkout_address_right_part fieldset legend{
+    color: $blue;
+  }
 }
 
 .comment {

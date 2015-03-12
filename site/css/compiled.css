@@ -1849,7 +1849,7 @@ select {
   border-color: black;
   border-style: solid;
   border-width: 1px;
-  padding: 0.9em; }
+  padding: 0.3em; }
 
 input.bondforgotten-button,
 input.btn-secondary,
@@ -2665,11 +2665,20 @@ th {
   padding: 0.5em; }
 
 body .hikashop_checkout_billing_address, body .hikashop_checkout_address_right_part, body .hikashop_checkout_address_left_part {
-  border: 1px solid #00529C;
+  border: 2px solid #00529C;
   background-color: white; }
 
 .hikashop_checkout_page {
   margin-bottom: 50px; }
+
+body.contentpane {
+  background-color: white; }
+  body.contentpane h1 {
+    color: #00529C !important;
+    font-size: 1em !important; }
+
+body #hikashop_checkout_page .hikashop_shipping_methods fieldset legend, body #hikashop_checkout_page .hikashop_payment_methods fieldset legend, body #hikashop_checkout_page .hikashop_checkout_billing_address fieldset legend, body #hikashop_checkout_page .hikashop_checkout_address_left_part fieldset legend, body #hikashop_checkout_page .hikashop_checkout_address_right_part fieldset legend {
+  color: #00529C; }
 
 .comment {
   font-size: 84%; }
