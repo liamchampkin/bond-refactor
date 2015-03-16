@@ -1,5 +1,8 @@
 a img {
   border: medium none;
+  &:hover{
+    border: medium none;
+  }
 }
 
 a:link,

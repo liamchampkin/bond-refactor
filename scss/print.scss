@@ -1,5 +1,9 @@
 body, td, li, input, select, p, span, h1, h2, h3, h4  {
-  font-family: Helvetica, sans-serif;
+  font-family: Helvetica, "nimbus-sans", sans-serif;
+}
+
+.windows-font{
+  font-family: $windows-font;
 }
 
 h1, h2, h3, h5, h6 {

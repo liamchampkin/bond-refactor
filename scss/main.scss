@@ -460,3 +460,12 @@ ul.joomla-nav-news{
   border-top-left-radius: 0;
   border-bottom-right-radius: $border-radius;
 } 
+
+.maintenance-message-green {
+    background-color: #e9f7e9;
+    border: 1px solid #85de84;
+    color: black;
+    font-size: 1.2em;
+    margin: -28px 35px 30px;
+    padding: 1em;
+}

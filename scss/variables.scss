@@ -27,10 +27,10 @@ $maths:										$red;
 $verbal:									$green;
 $non-verbal:							$yellow;
 
-
+$windows-font:						"nimbus-sans";
 
 // typography
-$font-stack:							Helvetica,sans-serif;
+$font-stack:							Helvetica, $windows-font, sans-serif;
 $font-color:							$black;
 $grey-text:								$dark-grey;
 
