@@ -25,7 +25,7 @@
 }
 
 .adultlogin .bordered input {
-  float: right;
+  float: right; 
   width: 209px;
 }
 
@@ -301,7 +301,7 @@ ul.joomla-nav-news{
 }
 
 .joomla-nav-news li a {
-  background-color: $secondar-button-color;
+  background-color: $secondary-button-color;
   border-bottom: 0 none;
   display: block;
   padding: 1em;
@@ -309,7 +309,7 @@ ul.joomla-nav-news{
 }
 
 .joomla-nav-news li a:hover {
-  background-color: $secondar-button-hover;
+  background-color: $secondary-button-hover;
 }
 
 .full-width-header{
@@ -468,4 +468,30 @@ ul.joomla-nav-news{
     font-size: 1.2em;
     margin: -28px 35px 30px;
     padding: 1em;
+}
+
+.article-book-cover{
+  padding: 10px;
+  border: 1px solid $border-color
+}
+
+.pull-right.article-book-cover {
+  margin: 0 0 20px 50px;
+}
+
+.pull-left.article-book-cover{
+  margin: 0 50px 20px 0;
+}
+
+.img-container-100 > img {
+    width: 100%;
+}
+
+.ad-grey-container {
+  background-color: $light-grey;
+  padding: 20px;
+}
+
+.guideline-ad-container{
+  width: 333px;
 }

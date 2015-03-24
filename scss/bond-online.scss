@@ -5,7 +5,7 @@ td.homequiztable1 {
   padding-left: 10px;
   width: 26%;
 }
-.homequiztableheaderrow {
+.homequiztableheaderrow{
   background: $blue;
   color: #ffffff;
     td {
@@ -13,16 +13,22 @@ td.homequiztable1 {
       font-weight: normal;
     }
 }
-#quiz-list, #home-table, #report-list{
+#quiz-list, #home-table, #report-list, #tryit-list{
   border: 1px solid $border-color;
   tr:nth-child(even) {
     background: $table-even-color;
   }   
 }
 
+.homequiztable4.bestScoreText {
+  color: white;
+  font-weight: normal;
+}
+
 
 .coursePracticeAndMockResults,
-#report-list{
+#report-list,
+#tryit-list{
   background-color: $blue;
 }
 

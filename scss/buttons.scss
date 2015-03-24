@@ -1,16 +1,8 @@
-.login-buttons {
-  position: absolute;
-  right: 0;
-  top: 0;
-}
-
-.btn,
 .try-it div.startTestButton, .child-home div.startTestButton {
   background-image: none;
   border: 1px solid transparent;
   cursor: pointer;
   display: inline-block;
-  font-size: 14px;
   font-weight: 400;
   line-height: 1.42857;
   margin-bottom: 0;
@@ -102,12 +94,11 @@ select {
 
 input.bondforgotten-button,
 input.btn-secondary,
-a.btn-secondary,
 input.bond-register-button,
 input#id_cancel,
 .submitButtonBlue,
 .question-answers-report-problem {
-  background-color: $secondar-button-color;
+  background-color: $secondary-button-color;
   border: none;
   color: $dark-grey;
   cursor: pointer;
@@ -117,10 +108,9 @@ input.bondforgotten-button:hover,
 input.btn-secondary:hover,
 input.bond-register-button:hover,
 input#id_cancel:hover,
-a.btn-secondary:hover,
 .submitButtonBlue:hover,
 .question-answers-report-problem:hover {
-  background-color: $secondar-button-hover;
+  background-color: $secondary-button-hover;
 }
 
 input.bondlogin-button,
@@ -152,7 +142,7 @@ body .hikashop_products_listing .hikashop_search_input_button,
 body #hikashop_address_form_span_iframe .hikashop_cart_input_button{
     background-image: none;
     width: auto !important;
-    background-color: $secondar-button-color;
+    background-color: $secondary-button-color;
     color: $grey-text;
     font-size: 0.8em;
     border-radius: 5px;
@@ -279,4 +269,66 @@ div.submitButtonBlue, div.submitButtonBlueSmall, div.submitButtonBlueTiny, #Kune
   color: #0066CC;
   cursor: pointer;
   line-height: 2em;
+}
+
+.btn{
+  background-image: none;
+  border: 1px solid transparent;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.5;
+  margin: 0 3px;
+  padding: 9px 12px 7px;
+  text-align: center;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.btn-primary{
+  background-color: $primary-button-color;
+  color: white;
+  &:hover{
+    color: $secondary-button-hover; 
+    background-color: $primary-button-hover;
+  }
+}
+
+.btn-secondary{
+  background-color: $secondary-button-color;
+  color: $dark-grey;
+  &:hover{
+    color: $dark-grey;
+    background-color: $secondary-button-hover;
+  }
+}
+
+.login-buttons,
+.button-top-container {
+  position: absolute;
+  right: -3px;
+  top: 0;
+}
+
+.button-bottom-container{
+  bottom: 0;
+  position: absolute;
+  right: -3px;
+}
+
+.btn-full-width {
+  margin: 10px 0 0;
+  padding: 10px 0;
+  width: 100%;
+}
+
+.align-left{
+  text-align: left;
+}
+
+.online-subscription-ad .btn-full-width{
+  font-size: 1em;
+  padding-left: 5%;
+  width: 95%;
 }

@@ -561,11 +561,7 @@ body .container{
   margin: 6px 0;
   padding: 3px;
   width: 200px;
-}
-
-.kidslogin .bondlogin-button {
-  margin: -85px 0 0 0;
-}
+} 
 
 .welcomeMsgLogin,
 .clearFloats {
@@ -590,7 +586,7 @@ table.summaryTable .r2_c2 {
 .r1_c3, .r2_c3, .r3_c3 { width:32px; }
 .r1_c1, .r1_c2, .r1_c3, .r2_c1, .r2_c2, .r2_c3, .r3_c1, .r3_c2, .r3_c3 { padding:0; margin:0; }
 .summaryTable { border-collapse: collapse; margin-left:100px; }
-.child_r2_c2 {color:#669900;font-weight:bold;font-size:1.5em;}
+.child_r2_c2 {color:$blue;font-weight:bold;font-size:1.5em;}
 
 .kids-login {
   width: 450px;

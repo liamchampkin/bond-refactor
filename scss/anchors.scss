@@ -5,7 +5,10 @@ a img {
   }
 }
 
-a:link,
+a{
+  text-decoration: none;
+}
+
 .main-left-sidebar .hikashop_subcategories_listing a{
   color: $link-color;
   text-decoration: none;
