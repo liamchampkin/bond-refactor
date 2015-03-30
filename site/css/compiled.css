@@ -1739,6 +1739,10 @@ a {
 a:hover {
   color: #224096; }
 
+a:focus {
+  background-color: #f1f1f1;
+  outline: 3px solid #f1f1f1; }
+
 .article-section p a,
 .article-section li a,
 .example a,
@@ -1761,6 +1765,14 @@ a.back-to-top {
 .article-section .no-border-link li a:hover {
   border-bottom: none;
   text-decoration: none; }
+
+a[rel="external"]::after {
+  background-image: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iTGF5ZXJfMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeD0iMHB4IiB5PSIwcHgiIHdpZHRoPSIxNC45OTFweCIgaGVpZ2h0PSIxMi44NzlweCIgdmlld0JveD0iMCAwIDE0Ljk5MSAxMi44NzkiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDE0Ljk5MSAxMi44NzkiIHhtbDpzcGFjZT0icHJlc2VydmUiPjxnPjxwYXRoIGZpbGw9IiMwMDUyOUMiIGQ9Ik0xMS43OTUsMTAuNDY3YzAsMS4zMzItMS4wODEsMi40MTMtMi40MTMsMi40MTNoLTYuOTdDMS4wODEsMTIuODc5LDAsMTEuNzk5LDAsMTAuNDY3di02Ljk3YzAtMS4zMzIsMS4wODEtMi40MTMsMi40MTMtMi40MTNIOC4zMWMwLjE1MSwwLDAuMjY4LDAuMTE3LDAuMjY4LDAuMjY4djAuNTM2YzAsMC4xNTEtMC4xMTcsMC4yNjgtMC4yNjgsMC4yNjhIMi40MTNjLTAuNzM3LDAtMS4zNCwwLjYwMy0xLjM0LDEuMzR2Ni45N2MwLDAuNzM3LDAuNjAzLDEuMzQsMS4zNCwxLjM0aDYuOTdjMC43MzcsMCwxLjM0LTAuNjAzLDEuMzQtMS4zNFY3Ljc4NmMwLTAuMTUxLDAuMTE3LTAuMjY4LDAuMjY4LTAuMjY4aDAuNTM2YzAuMTUxLDAsMC4yNjgsMC4xMTcsMC4yNjgsMC4yNjhWMTAuNDY3eiBNMTUuMDEyLDQuODM3YzAsMC4yOTMtMC4yNDMsMC41MzYtMC41MzYsMC41MzZjLTAuMTQzLDAtMC4yNzYtMC4wNTktMC4zNzctMC4xNTlMMTIuNjI0LDMuNzRMNy4xNjMsOS4yMDJjLTAuMDUsMC4wNS0wLjEyNiwwLjA4NC0wLjE5MywwLjA4NFM2LjgyNyw5LjI1Miw2Ljc3Nyw5LjIwMkw1LjgyMiw4LjI0N2MtMC4wNS0wLjA1LTAuMDg0LTAuMTI2LTAuMDg0LTAuMTkzczAuMDM0LTAuMTQzLDAuMDg0LTAuMTkzTDExLjI4NCwyLjRMOS44MSwwLjkyNUM5LjcwOSwwLjgyNSw5LjY1LDAuNjkxLDkuNjUsMC41NDhjMC0wLjI5MywwLjI0My0wLjUzNiwwLjUzNi0wLjUzNmg0LjI4OWMwLjI5MywwLDAuNTM2LDAuMjQzLDAuNTM2LDAuNTM2VjQuODM3eiIvPjwvZz48L3N2Zz4=");
+  background-position: 5px 0;
+  background-repeat: no-repeat;
+  content: "     ";
+  height: 19px;
+  padding-left: 18px; }
 
 .try-it div.startTestButton, .child-home div.startTestButton {
   background-image: none;

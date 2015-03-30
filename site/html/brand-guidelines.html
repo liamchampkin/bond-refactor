@@ -25,6 +25,8 @@
     <ul>
       <li>Avoid using bold and italics</li>
       <li>Lines of text should not exceed 75 characters as they become harder to read at this point.</li>
+      <li>Brand names should not be italicised</li>
+      <li>Avoid using inline styles</li>
     </ul>
     <div class="example">
       <p>Note the ‘he’. 1964 was long before the days of sexual equality so, when the first book was published, it was felt that it would almost certainly prove more successful if its authorship wasn’t overtly attributed to a woman. Consequently, her name was given as the genderless ‘J.M. Bond’, and the title page said that she was the ‘Principal’ rather than the ‘Head Mistress’ of a school. It was not until 2007 that she was ‘outed’ on the internet as being female!</p>
@@ -61,8 +63,14 @@
     </div>
 
     <h3>Hyperlinks</h3>
+    <ul>
+      <li>Don't use the text "click here" for hyperlinks</li>
+    </ul>
     <div class="example">
-      <p>Note the ‘he’. 1964 was long before the days of sexual equality so, when the <a href="#">first book</a> was published, it was felt that it would almost certainly prove more successful if its authorship wasn’t overtly attributed to a woman. Consequently, her name was given as the genderless ‘J.M. Bond’, and the title page said that she was the ‘Principal’ rather than the ‘Head Mistress’ of a school. It was not until 2007 that she was ‘outed’ on the internet as being female!</p>
+
+      <p><a href="#">A link without surrounding text</a></p>
+      <p>Note the ‘he’. 1964 was long before the days of sexual equality so, when the <a href="#">first book</a> was published, it was felt that it would almost certainly prove more successful if its authorship wasn’t overtly attributed to a woman. Consequently, her name was given as the genderless ‘J.M. Bond’, and the title page said that she was the ‘Principal’ rather than the ‘Head Mistress’ of a school. It was not until 2007 that she was ‘outed’ on the <a rel="external" href="#">internet</a> as being female!</p>
+      <p><a rel="external" href="#">A standard external link</a></p>
     </div>   
 
     <h3>Fonts</h3>
@@ -112,14 +120,17 @@
       <ul class="subjects colours">
         <li class="blue color-box">
           <span class="color-text">Blue</span>
+          <span class="sass-text">$blue</span>
           <span class="hex-text">#00529c</span>
         </li>
         <li class="grey color-box">
           <span class="color-text">Grey</span>
+          <span class="sass-text">$dark-grey</span>
           <span class="hex-text">#414242</span>
         </li>
         <li class="black color-box">
           <span class="color-text">Black</span>
+          <span class="sass-text">$dark-grey</span>
           <span class="hex-text">#000000</span>
         </li>
       </ul>
@@ -127,18 +138,22 @@
       <ul class="subjects colours">
         <li class="teal color-box">
           <span class="color-text">Teal</span>
+          <span class="sass-text">$teal</span>
           <span class="hex-text">#00A4B9</span>
         </li>
         <li class="red color-box">
           <span class="color-text">Red</span>
+          <span class="sass-text">$red</span>
           <span class="hex-text">#EE1941</span>
         </li>
         <li class="green color-box">
           <span class="color-text">Green</span>
+          <span class="sass-text">$green</span>
           <span class="hex-text">#ADBE25</span>
         </li>
         <li class="yellow color-box">
           <span class="color-text">Yellow</span>
+          <span class="sass-text">$yellow</span>
           <span class="hex-text">#FDB813</span>
         </li>
       </ul>
