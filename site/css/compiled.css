@@ -1735,7 +1735,7 @@ a {
 a:hover {
   color: #224096; }
 
-a:focus {
+.aticle-section a:focus, .example a:focus {
   background-color: #f1f1f1;
   outline: 3px solid #f1f1f1; }
 
@@ -2859,6 +2859,13 @@ li.color-box span {
   position: absolute;
   right: 10px;
   opacity: 0.79; }
+
+.sass-text {
+  font-size: 60%;
+  left: 10px;
+  opacity: 0.8;
+  position: absolute;
+  top: 38px; }
 
 li.cover a {
   background-color: #ee1941;

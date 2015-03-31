@@ -22,10 +22,13 @@ a:hover {
   color: $link-hover;
 }
 
-a:focus {
-  background-color: $link-focus;
-  outline: 3px solid $link-focus;
+.aticle-section, .example{
+  a:focus {
+    background-color: $link-focus;
+    outline: 3px solid $link-focus;
+  }
 }
+
 
 .article-section p a,
 .article-section li a,
