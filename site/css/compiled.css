@@ -2057,7 +2057,7 @@ div.submitButtonBlue, div.submitButtonBlueSmall, div.submitButtonBlueTiny, #Kune
   width: 95%; }
 
 .bond-shipping-info p {
-  margin: 0 5px; }
+  margin: 0 5px 20px; }
 
 h1.bond-shipping-info,
 #hikashop_cart_module h1,
@@ -2127,6 +2127,9 @@ span.hikashop_product_price {
 
 .hikashop_module a:hover {
   border-bottom: 1px solid; }
+
+.hikashop_product_image a:hover {
+  border-bottom: none; }
 
 body #hikashop_category_information_module_51 div.hikashop_subcontainer {
   background-color: #E5EDF5; }
@@ -2669,6 +2672,9 @@ label {
 .high-light-grey {
   font-weight: bold;
   font-size: 1.3em; }
+
+li {
+  margin-bottom: 0.5em; }
 
 .high-light-blue li {
   color: #00529C;

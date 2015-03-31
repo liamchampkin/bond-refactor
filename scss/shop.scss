@@ -1,5 +1,5 @@
 .bond-shipping-info p {
-  margin: 0 5px;
+  margin: 0 5px 20px;
 }
 
 h1.bond-shipping-info,
@@ -76,8 +76,15 @@ span.hikashop_product_price{
   text-decoration: none;
 }
 
-.hikashop_module a:hover{
-  border-bottom: 1px solid;
+.hikashop_module{
+  a:hover{
+    border-bottom: 1px solid;
+  }
+}
+.hikashop_product_image{
+  a:hover{
+    border-bottom: none;
+  }
 }
 
 
