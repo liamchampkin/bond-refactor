@@ -416,3 +416,31 @@ div.question-answers td  {
   padding: 2em;
 }
 
+#timer{
+  border: none;
+  float: right; 
+  margin-top: -40px;
+  #clock input {
+    border: 0 !important;
+    text-align: right !important;
+    width: 100%;
+    position: absolute;
+    left: 9px;
+    top: -4px;
+  }
+  #QuizTimer > form {
+      position: relative;
+  }
+  #QuizTimer > form::before{
+    content: "Time remaining: ";
+    left: -50px;
+    position: relative;
+  }
+  td{
+    background-color: transparent;
+    position: relative;
+  }
+  th{
+    display: none;
+  }
+}

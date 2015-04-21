@@ -167,7 +167,8 @@ body #hikashop_address_form_span_iframe .hikashop_cart_input_button:hover{
 
 .attempt-pauseButton,
 .attempt-markAnswers,
-.question-answers-report-problem {
+.question-answers-report-problem, 
+.attempt-quitButton{
   border: 0 none;
   float: left;
   padding: 8px 10px;
@@ -189,13 +190,27 @@ body #hikashop_address_form_span_iframe .hikashop_cart_input_button:hover{
   float: left;
 }
 
+.attempt-quitButton{
+  background-color: $red-button;
+  color: white;
+  &:hover{
+    background-color: $red-button-hover;
+  }
+}
+
 .attempt-pauseButton{
-  background-color: $results-green;
+  background-color: $green-button;
+  &:hover{
+    background-color: $green-button-hover;
+  }
 }
 
 .attempt-markAnswers{
-  background-color: $amber;
+  background-color: $amber-button;
   margin-left: 20px;
+  &:hover{
+    background-color: $amber-button-hover;
+  }
 }
 
 .question-answers-report-problem{
@@ -331,4 +346,9 @@ div.submitButtonBlue, div.submitButtonBlueSmall, div.submitButtonBlueTiny, #Kune
   font-size: 1em;
   padding-left: 5%;
   width: 95%;
+}
+
+.submitButtonBlue.mockTestButton{
+  margin-right: 10px;
+  margin-top: 50px;
 }

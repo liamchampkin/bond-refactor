@@ -1579,20 +1579,6 @@ div.question-text .question-answer {
   max-width: 800px;
   vertical-align: middle; }
 
-.attempt-quitButton {
-  background: url("images/btn_quit_bg.png") no-repeat scroll center center transparent;
-  border: 0 none;
-  float: left;
-  height: 48px;
-  margin-bottom: 20px;
-  margin-right: 10px;
-  margin-top: -35px;
-  padding: 0 0 0 15px;
-  width: 128px;
-  font-size: 1.2em;
-  font-weight: normal;
-  cursor: pointer; }
-
 .child-home div.mockTestContinueButton {
   margin: 100px 0 0 600px !important; }
 
@@ -1916,7 +1902,8 @@ body #hikashop_address_form_span_iframe .hikashop_cart_input_button:hover {
 
 .attempt-pauseButton,
 .attempt-markAnswers,
-.question-answers-report-problem {
+.question-answers-report-problem,
+.attempt-quitButton {
   border: 0 none;
   float: left;
   padding: 8px 10px;
@@ -1933,12 +1920,22 @@ body #hikashop_address_form_span_iframe .hikashop_cart_input_button:hover {
 .attempt-submitbuttons {
   float: left; }
 
+.attempt-quitButton {
+  background-color: #EE1941;
+  color: white; }
+  .attempt-quitButton:hover {
+    background-color: #dd1037; }
+
 .attempt-pauseButton {
   background-color: #82BC00; }
+  .attempt-pauseButton:hover {
+    background-color: #70a300; }
 
 .attempt-markAnswers {
   background-color: #EDA900;
   margin-left: 20px; }
+  .attempt-markAnswers:hover {
+    background-color: #d39700; }
 
 .question-answers-report-problem {
   float: right; }
@@ -2055,6 +2052,10 @@ div.submitButtonBlue, div.submitButtonBlueSmall, div.submitButtonBlueTiny, #Kune
   font-size: 1em;
   padding-left: 5%;
   width: 95%; }
+
+.submitButtonBlue.mockTestButton {
+  margin-right: 10px;
+  margin-top: 50px; }
 
 .bond-shipping-info p {
   margin: 0 5px 20px; }
@@ -2591,6 +2592,29 @@ div.question-answers td {
   border: 1px solid #dadada;
   margin: 0.5em 0 1em;
   padding: 2em; }
+
+#timer {
+  border: none;
+  float: right;
+  margin-top: -40px; }
+  #timer #clock input {
+    border: 0 !important;
+    text-align: right !important;
+    width: 100%;
+    position: absolute;
+    left: 9px;
+    top: -4px; }
+  #timer #QuizTimer > form {
+    position: relative; }
+  #timer #QuizTimer > form::before {
+    content: "Time remaining: ";
+    left: -50px;
+    position: relative; }
+  #timer td {
+    background-color: transparent;
+    position: relative; }
+  #timer th {
+    display: none; }
 
 body, td, li, input, select, p, span, h1, h2, h3, h4 {
   font-family: Helvetica, "nimbus-sans", sans-serif; }
