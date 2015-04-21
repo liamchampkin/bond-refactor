@@ -2949,7 +2949,7 @@ ul.joomla-nav-news {
   /*this is a hack to get rid of the strange hardcoded elipses*/ }
 
 .phome-promotions-news-link {
-  margin-bottom: -18px;
+  margin-bottom: -26px;
   /*as the elipses is still there I have to use a negative margin LS*/ }
 
 .joomla-nav-news li a {
