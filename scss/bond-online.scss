@@ -290,24 +290,6 @@ div.question-answers td  {
   }
 }
 
-.attempt-next_off,
-.attempt-next,
-.attempt-last {
-  background-color: $blue;
-  color: white;
-}
-
-.attempt-previous_off,
-.attempt-next_off {
-  cursor: default;
-  opacity: 0.3;
-}
-
-.attempt-previous_off,
-.attempt-first, .attempt-previous {
-  background-color: $blue;
-  color: white;
-}
 
 .try-it .attempt-paging,
 .child-home .attempt-paging,

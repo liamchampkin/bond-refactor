@@ -359,29 +359,6 @@ body .container {
   background: #4461A1;
   padding: 5px; }
 
-.logininfo, #header-home .headermenu font {
-  font-size: 1em; }
-
-#veryTop .logininfo {
-  float: right;
-  padding-left: 10px;
-  padding-top: 5px; }
-
-#veryTop a {
-  text-decoration: none; }
-
-#veryTop a {
-  color: #2E6C91; }
-
-#veryTop a {
-  font-weight: 700; }
-
-#veryTop .logininfo img {
-  display: inline-block;
-  float: right;
-  margin-top: -5px;
-  margin-left: 25px; }
-
 #mainHeader p {
   margin: 0; }
 
@@ -1554,21 +1531,6 @@ div.question-answers tr {
   display: inline;
   cursor: pointer; }
 
-div.question-viewExample {
-  background: url("images/btn_example_bg.png") no-repeat scroll center center transparent;
-  float: right;
-  height: 50px;
-  line-height: 1.2em;
-  margin: 0 10px;
-  padding: 15px 0 0 45px;
-  text-align: left;
-  width: 84px;
-  font-size: 1em;
-  font-weight: bold;
-  color: #2B6CBE;
-  cursor: pointer;
-  z-index: 1; }
-
 div.question-text td {
   font-size: 1em; }
 
@@ -2001,6 +1963,29 @@ div.submitButtonBlue, div.submitButtonBlueSmall, div.submitButtonBlueTiny, #Kune
   cursor: pointer;
   line-height: 2em; }
 
+.attempt-next_off,
+.attempt-next,
+.attempt-last {
+  background-color: #e6e6e6;
+  color: #414242; }
+
+.attempt-next:hover,
+.attempt-last:hover {
+  background-color: #d9d9d9; }
+
+.attempt-previous_off,
+.attempt-next_off {
+  cursor: default;
+  opacity: 0.5; }
+
+.attempt-previous_off,
+.attempt-first, .attempt-previous {
+  background-color: #e6e6e6;
+  color: #414242; }
+
+.attempt-first:hover, .attempt-previous:hover {
+  background-color: #d9d9d9; }
+
 .btn {
   background-image: none;
   border: 1px solid transparent;
@@ -2056,6 +2041,23 @@ div.submitButtonBlue, div.submitButtonBlueSmall, div.submitButtonBlueTiny, #Kune
 .submitButtonBlue.mockTestButton {
   margin-right: 10px;
   margin-top: 50px; }
+
+div.question-viewExample {
+  float: right;
+  margin: 10px;
+  padding: 10px 15px 8px;
+  text-align: center;
+  font-size: 1em;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+  z-index: 1;
+  position: relative;
+  background-color: #414242;
+  color: #fff;
+  font-weight: normal; }
+  div.question-viewExample:hover {
+    background-color: #000; }
 
 .bond-shipping-info p {
   margin: 0 5px 20px; }
@@ -2496,22 +2498,6 @@ div.question-answers td {
 .quiz-main .attempt-next-previous {
   position: relative;
   top: -50px; }
-
-.attempt-next_off,
-.attempt-next,
-.attempt-last {
-  background-color: #00529C;
-  color: white; }
-
-.attempt-previous_off,
-.attempt-next_off {
-  cursor: default;
-  opacity: 0.3; }
-
-.attempt-previous_off,
-.attempt-first, .attempt-previous {
-  background-color: #00529C;
-  color: white; }
 
 .attempt-page-list {
   width: 600px;
@@ -3134,6 +3120,16 @@ ul.joomla-nav-news {
 
 .guideline-ad-container {
   width: 333px; }
+
+#veryTop .logininfo {
+  float: right;
+  padding-top: 5px; }
+
+#veryTop .logininfo img {
+  display: inline-block;
+  float: right;
+  margin-top: -5px;
+  margin-left: 25px; }
 
 @media (max-width: 1202px) {
   /*navigation breakpoint*/

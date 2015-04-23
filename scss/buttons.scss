@@ -286,6 +286,38 @@ div.submitButtonBlue, div.submitButtonBlueSmall, div.submitButtonBlueTiny, #Kune
   line-height: 2em;
 }
 
+.attempt-next_off,
+.attempt-next,
+.attempt-last {
+  background-color: $secondary-button-color; 
+  color: $dark-grey;
+}
+
+.attempt-next,
+.attempt-last {
+  &:hover{
+    background-color: $secondary-button-hover;
+  }
+}
+
+.attempt-previous_off,
+.attempt-next_off {
+  cursor: default;
+  opacity: 0.5;
+}
+
+.attempt-previous_off,
+.attempt-first, .attempt-previous {
+  background-color: $secondary-button-color;
+  color: $dark-grey;
+}
+
+.attempt-first, .attempt-previous{
+  &:hover{
+    background-color: $secondary-button-hover;
+  }
+}
+ 
 .btn{
   background-image: none;
   border: 1px solid transparent;
@@ -351,4 +383,23 @@ div.submitButtonBlue, div.submitButtonBlueSmall, div.submitButtonBlueTiny, #Kune
 .submitButtonBlue.mockTestButton{
   margin-right: 10px;
   margin-top: 50px;
+}
+
+div.question-viewExample {
+  float: right;
+  margin: 10px;
+  padding: 10px 15px 8px;
+  text-align: center;
+  font-size: 1em;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+  z-index: 1;
+  position: relative;
+  background-color: $primary-button-color;
+  color: $white;
+  font-weight: normal;
+  &:hover{
+    background-color: $primary-button-hover; 
+  }
 }
