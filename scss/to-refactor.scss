@@ -93,20 +93,6 @@ table.coursePracticeAndMockResults .homequiztable3 div, table.coursePracticeAndM
   margin-top: 30px;
 }
 
-
-/* HELP LIST ICONS
-------------------------------------------------------------------------------*/
-ul.help_list{padding:10px 0;margin-left:5px}
-ul.help_list li{padding:10px 0 10px 45px;margin-left:0;list-style-type:none}
-ul.help_list li.video_icon{background-image:url("/images/bond/video_icon.png");background-repeat:no-repeat;}
-ul.help_list li.camera_icon{background-image:url("/images/bond/video_support_icon.png");background-repeat:no-repeat;}
-ul.help_list li.help_icon{background-image:url("/images/bond/help_icon.png");background-repeat:no-repeat;}
-ul.help_list li.shop_icon{background-image:url("/images/bond/shop_icon.png");background-repeat:no-repeat;}
-ul.help_list li.getting_started_icon{background-image:url("/images/bond/getting_started_icon.png");background-repeat:no-repeat;}
-
-
-
-
 /* NEW HOME PAGE 3 columns
 ------------------------------------------------------------------------------*/
 .home-main-col {
@@ -213,11 +199,6 @@ tbody tr:nth-child(2n) td, tbody tr.even td {
 
 .no-subscriptions {
   width: 610px;
-}
-
-.my-subscriptions p {
-  font-size: 15px;
-    margin: 5px;
 }
 
 body .container{
