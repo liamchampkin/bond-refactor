@@ -322,7 +322,7 @@ div.question-answers td  {
     width: 600px;
 }
 
-.attempt-thispage{
+.attempt-thispage{ 
   color: white;
   background-color: $blue;
 }
@@ -336,6 +336,20 @@ div.question-answers td  {
   margin-right: 2em;
   padding: 2em;
   border: 1px solid $border-color;
+  h2{
+    margin: 0;
+  }
+  hr:nth-child(n) {
+    margin: 1.5em 0 2em;
+  }
+  h1{ //same as h3
+    color: #00529c;
+    font-weight: normal;
+    line-height: 1.5;
+    margin: 1em 0;
+    max-width: 650px;
+    font-size: 1.5em;
+  }
 }
 
 .my-subscriptions .gbSmall .genericMiddle {

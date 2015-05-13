@@ -132,7 +132,7 @@ label#nonmarketing{
 
 .example {
   border: 1px solid $border-color;
-  padding: 2em;
+  padding: $article-padding;
   position: relative;
   background-color: white;
 }
@@ -189,7 +189,7 @@ li.color-box {
   height: 100px;
   margin-left: 2%;
   position: relative;
-  width: 20.6%;
+  width: 20.7%;
 }
 
 li.color-box span{
@@ -258,8 +258,13 @@ li.red.color-box{
 }
 
 li.grey.color-box{
+  background-color: $grey;
+}
+
+li.dark-grey.color-box{
   background-color: $dark-grey;
 }
+
 
 li.black.color-box{
   background-color: $black;

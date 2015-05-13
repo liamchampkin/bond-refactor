@@ -60,6 +60,12 @@
         <li>List two</li>
         <li>List three</li>
       </ul>
+    <h4>List style none</h4>
+      <ul class="list-style-none">
+        <li>List one</li>
+        <li>List two</li>
+        <li>List three</li>
+      </ul>
       <p><a rel="external" href="https://github.com/liamcreative/bond-refactor/blob/master/site/html/live-html/components/lists.html">Download html</a></p>
     </div>
 
@@ -115,6 +121,66 @@
 
   <div class="guideline">
     <h2 class="count">
+      Icons
+    </h2>
+    <div class="example">
+      <h3>Grey icons</h3>
+      <ul class="list-style-none">
+        <li><i class="icon-help grey-icon"></i>Help icon</li>
+        <li><i class="icon-video grey-icon"></i>Video icon</li>
+        <li><i class="icon-info grey-icon"></i>Info icon</li>
+        <li><i class="icon-user grey-icon"></i>User icon</li>
+        <li><i class="icon-basket grey-icon"></i>Basket icon</li>
+        <li><i class="icon-question grey-icon"></i>Question icon</li>
+        <li><i class="icon-close grey-icon"></i>Close icon</li>
+        <li><i class="icon-tick grey-icon"></i>Tick icon</li>
+        <li><i class="icon-arrow-left grey-icon"></i>Arrow left icon</li>
+        <li><i class="icon-arrow-right grey-icon"></i>Arrow right icon</li>
+        <li><i class="icon-print grey-icon"></i>Print icon</li>
+        <li><i class="icon-refresh grey-icon"></i>Refresh icon</li>
+      </ul>
+      <hr class="grey">
+      <h3>Blue icons</h3>
+      <ul class="list-style-none">
+        <li><i class="icon-help blue-icon"></i>Help icon</li>
+        <li><i class="icon-video blue-icon"></i>Video icon</li>
+        <li><i class="icon-info blue-icon"></i>Info icon</li>
+        <li><i class="icon-user blue-icon"></i>User icon</li>
+        <li><i class="icon-basket blue-icon"></i>Basket icon</li>
+        <li><i class="icon-question blue-icon"></i>Question icon</li>
+        <li><i class="icon-close blue-icon"></i>Close icon</li>
+        <li><i class="icon-tick blue-icon"></i>Tick icon</li>
+        <li><i class="icon-arrow-left blue-icon"></i>Arrow left icon</li>
+        <li><i class="icon-arrow-right blue-icon"></i>Arrow right icon</li>
+        <li><i class="icon-print blue-icon"></i>Print icon</li>
+        <li><i class="icon-refresh blue-icon"></i>Refresh icon</li>
+      </ul>
+      <hr class="grey">
+      <div class="full-width background-blue">
+        <div class="full-width-padding">
+          <h3>White icons</h3>
+          <ul class="list-style-none">
+            <li><i class="icon-help white-icon"></i>Help icon</li>
+            <li><i class="icon-video white-icon"></i>Video icon</li>
+            <li><i class="icon-info white-icon"></i>Info icon</li>
+            <li><i class="icon-user white-icon"></i>User icon</li>
+            <li><i class="icon-basket white-icon"></i>Basket icon</li>
+            <li><i class="icon-question white-icon"></i>Question icon</li>
+            <li><i class="icon-close white-icon"></i>Close icon</li>
+            <li><i class="icon-tick white-icon"></i>Tick icon</li>
+            <li><i class="icon-arrow-left white-icon"></i>Arrow left icon</li>
+            <li><i class="icon-arrow-right white-icon"></i>Arrow right icon</li>
+            <li><i class="icon-print white-icon"></i>Print icon</li>
+            <li><i class="icon-refresh white-icon"></i>Refresh icon</li>
+          </ul>       
+        </div>
+      </div>
+      <hr class="grey">
+    </div>
+  </div>
+
+  <div class="guideline">
+    <h2 class="count">
       Colours
     </h2>
     <div class="example">
@@ -125,14 +191,19 @@
           <span class="sass-text">$blue</span>
           <span class="hex-text">#00529c</span>
         </li>
-        <li class="grey color-box">
+        <li class="dark-grey color-box">
           <span class="color-text">Grey</span>
           <span class="sass-text">$dark-grey</span>
           <span class="hex-text">#414242</span>
         </li>
+        <li class="grey color-box">
+          <span class="color-text">Grey</span>
+          <span class="sass-text">$grey</span>
+          <span class="hex-text">#dadada</span>
+        </li>
         <li class="black color-box">
           <span class="color-text">Black</span>
-          <span class="sass-text">$dark-grey</span>
+          <span class="sass-text">$black</span>
           <span class="hex-text">#000000</span>
         </li>
       </ul>
@@ -171,6 +242,7 @@
       <a href="https://www-test.bond11plus.co.uk/home/plogin" class="loginButton pull-left">
         <span>Login</span>
       </a>
+      <div class="clear-both"></div>
       <hr class="grey">
       <h4>Add to cart button</h4>
       <span class="hikashop_product_stock">
@@ -185,6 +257,18 @@
       <hr class="grey">
       <h4>Submit button</h4>
       <input type="submit" value="Go">
+      <hr class="grey">
+      <h4>Primary button caret right</h4>
+      <a href="/home/plogin" class="btn btn-primary btn-caret-right">Parents' login</a>
+      <hr class="grey">
+      <h4>Primary button caret left</h4>
+      <a href="/home/plogin" class="btn btn-primary btn-caret-left">Parents' login</a>
+      <hr class="grey">
+      <h4>Secondary button caret right</h4>
+      <a href="/home/plogin" class="btn btn-secondary btn-caret-right">Parents' login</a>
+      <hr class="grey">
+      <h4>Secondary button caret left</h4>
+      <a href="/home/plogin" class="btn btn-secondary btn-caret-left">Parents' login</a>
     </div>
     </div>
 
@@ -193,10 +277,38 @@
       Example article
     </h2>
     <div class="article-section">
-      <h2>Example article</h2>
-      <hr>
-      <p>Bond has been developed to support children's learning with wide-ranging practice, underpinned by straightforward and reliable teaching. Bond's 11 Plus book resources now include:</p>
-      
+      <h2>11+ Easter Revision – advice and support</h2>
+      <hr>  
+      <div class="full-width article-banner">
+        <img src="/images/2015/example-banner-image.jpg" class="image-cover">
+      </div>
+      <p class="lead">How do you begin with revision and how do you motivate your child? Based on my experience, these points might help:</p>
+      <h3>When to start:</h3>
+      <p>Easter is a great time to begin revision. Once your child has learnt the exam techniques needed, they can move on to <a href="#" rel="external">timed practice</a>, but at the start I’d just begin revising with technique guides to hand and don’t overly stress about timing. Confidence is crucial at this stage. If there are any weak areas, this is a good time to strengthen them.</p>
+      <h3>A personalised technique book:</h3>
+      <p>I use a technique book with an example of each question type to make sure that each of my pupils understands every question type. Any top tips or examples that help your child remember techniques can be added to the book. For example, in maths a worked long multiplication sum might be helpful and the formula for solving the area of a triangle could be a top tip. In verbal reasoning, the code questions might be useful and listing the squared and cubed numbers could be another top tip. Getting your child to write these key ideas out is a great way of revising and encouraging them to be part of their own learning process.</p>
+      <p>Personalising the technique book also makes everything just that bit more memorable. Choosing an appealing notebook and some stars, stickers and highlighter pens can make the process rewarding. Some children copy out a technique and highlight the title while others go to town with colour co-ordinated glitter pens.</p>
+      <h3>How to plan:</h3>
+      <p>What you need before creating your revision plan:</p>
+      <ol>
+      <li>The exam dates for the 11+ exam or exams</li>
+      <li>Which subjects will be in the exam</li>
+      <li>Any assessment papers, test papers or relevant school books that your child has been working on</li>
+      <li>The personalised technique book</li>
+      </ol>
+      <p>Now you know where you are aiming for and where your child is up to at present, it can be easier to work out what needs to be covered. Breaking this down into tiny chunks makes it accessible. This is a good time to recap weak areas, consolidate strengths and prepare for the higher level books and test papers.</p>
+      <h3>Motivation:</h3>
+      <p>I think it’s really important that children think about their own reasons for wanting to go to a specific school. I’ve found that listening and writing down children’s reasons for wanting a specific school can really help to keep them motivated. If milkshakes at lunchtime or a certain school uniform is a reason for them, this all goes on the list.</p>
+      <h3>Here are other methods that work for me:</h3>
+      <ol>
+      <li>Motivational aids such as ‘well done’ messages, stickers or stars when a child has completed work shows that every paper deserves recognition.</li>
+      <li>Encouraging work to be completed early so that a child can ‘earn’ a week off can help children who struggle with monotony, but others find it easier to maintain a habit. Here, knowledge of your child is everything.</li>
+      <li>At the risk of sounding obvious, frequently telling a child how proud you are of them and giving specific reasons why can be really powerful. Whilst scoring highly in practice tests is great, praising their inner determination rewards the child, not just their work.</li>
+      </ol>
+      <p>Feel free to adapt anything here to make it work for your child and have a great Easter.</p>
+      <hr class="grey">
+      <h3><em>Michellejoy Hughes</em></h3>
+
     </div>
   </div>
 
@@ -259,7 +371,10 @@
 
 <style>
    body{counter-reset: section}
-   h2.count{counter-reset: sub-section}
+   h2.count{
+    counter-reset: sub-section;
+    margin-top: 100px;
+   }
 
    h2.count:before{
      counter-increment: section;

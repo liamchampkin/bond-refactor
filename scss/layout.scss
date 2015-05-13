@@ -18,16 +18,63 @@
 .article-section {
   border: 1px solid $border-color;
   margin: 0 0 30px 0;
-  padding: 30px;
+  padding: $article-padding;
   background-color: white;
   box-shadow: 4px 5px 0px #f5f5f5;
   position: relative;
 }
 
 .full-width{
-  margin-left: -30px; /*same as article padding*/
-  margin-right: -30px;
-  padding: 2em;
+  margin-left: -$article-padding; /*same as article padding*/
+  margin-right: -$article-padding; /*same as article padding*/
+}
+
+.article-banner{
+  max-height: 300px;
+  overflow: hidden;
+  margin-bottom: 30px;
+  img.image-cover {
+    width: 100%;
+  }
+}
+
+.full-width-padding{
+  padding: $article-padding;
+}
+
+.background-blue{
+  background-color: $blue;
+  h1, h2, h3, h4, h5, h6, p, li, span, a{
+    color: white;
+  }
+}
+
+.background-teal{
+  background-color: $teal;
+  h1, h2, h3, h4, h5, h6, p, li, span, a{
+    color: white;
+  }
+}
+
+.background-red{
+  background-color: $red;
+  h1, h2, h3, h4, h5, h6, p, li, span, a{
+    color: white;
+  }
+}
+
+.background-green{
+  background-color: $green;
+  h1, h2, h3, h4, h5, h6, p, li, span, a{
+    color: white;
+  }
+}
+
+.background-yellow{
+  background-color: $yellow;
+  h1, h2, h3, h4, h5, h6, p, li, span, a{
+    color: white;
+  }
 }
 
 hr {
@@ -61,4 +108,8 @@ hr.grey{
 
 .article-section hr:nth-child(1n){
   margin: 1.5em 0 2em 0;
+}
+
+.no-subscriptions {
+  width: 95%;
 }
