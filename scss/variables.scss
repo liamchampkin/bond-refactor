@@ -33,12 +33,13 @@ $windows-font:						"nimbus-sans";
 $font-stack:							Helvetica, $windows-font, sans-serif;
 $font-color:							$black;
 $grey-text:								$dark-grey;
+$print-standard: 					#4c4d52;
 
 //layout
 $border-color: 						$grey;
 $border-radius:						15px;
 
-$link-color:							#2749AB;
+$link-color:							#06c;
 $link-hover:							darken($link-color, 5%);
 $link-focus: 							#f1f1f1;
 

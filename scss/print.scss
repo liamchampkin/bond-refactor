@@ -15,7 +15,7 @@ h1, h1.green {
   border: none;
   font-size: 3.5em;
   font-weight: bold;
-  color: #00529C; /*blue color*/
+  color: $blue; /*blue color*/
   margin-bottom: 0.2em;
 }
 
@@ -69,7 +69,7 @@ body p{
 }
 
 p, li, span, blockquote {
-  color: #4c4d52;
+  color: $print-standard;
   font-size: 1em;
   line-height: 1.6;
   margin-left: 0;
@@ -96,7 +96,7 @@ li{
 }
 
 .high-light-blue li{
-  color: #00529C; /*blue color*/
+  color: $blue; /*blue color*/
   margin-bottom: 0.5em;
   max-width: 100%;
 }

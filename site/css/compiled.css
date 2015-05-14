@@ -1605,6 +1605,19 @@ div.question-text .question-answer {
 .full-width-padding {
   padding: 2.3em; }
 
+.layout-container {
+  width: 100%; }
+  .layout-container img {
+    width: 100%; }
+
+#floating > ul {
+  background-color: white;
+  border: 1px solid #dadada;
+  list-style: outside none none;
+  margin: 0 0 25px;
+  padding: 2em;
+  text-align: left; }
+
 .background-blue {
   background-color: #00529C; }
   .background-blue h1, .background-blue h2, .background-blue h3, .background-blue h4, .background-blue h5, .background-blue h6, .background-blue p, .background-blue li, .background-blue span, .background-blue a {
@@ -1673,15 +1686,15 @@ a {
   text-decoration: none; }
 
 .main-left-sidebar .hikashop_subcategories_listing a {
-  color: #2749AB;
+  color: #06c;
   text-decoration: none; }
 
 .hikashop_subcategories_listing a {
-  color: #2749AB !important;
+  color: #06c !important;
   /*overiding from a file I cant find*/ }
 
 a:hover {
-  color: #224096; }
+  color: #0059b3; }
 
 .aticle-section a:focus, .example a:focus {
   background-color: #f1f1f1;
@@ -1697,7 +1710,7 @@ a.back-to-top {
 .article-section p a:hover,
 .example p a:hover,
 .article-section li a:hover {
-  border-bottom: 1px solid #224096;
+  border-bottom: 1px solid #0059b3;
   text-decoration: none; }
 
 .article-section a img
@@ -3004,6 +3017,10 @@ label#nonmarketing {
   right: 0;
   top: 0; }
 
+#floating.fixed {
+  position: fixed;
+  top: 0; }
+
 ul.subjects {
   height: 67px;
   margin: 0 0 10px;
@@ -3128,6 +3145,12 @@ li.non-verbal.subject-box a,
 li.yellow.color-box,
 .non-verbal-background {
   background-color: #FDB813; }
+
+li.print-color.color-box {
+  background-color: #4c4d52; }
+
+li.link-color.color-box {
+  background-color: #06c; }
 
 ul.joomla-nav-news {
   margin: 0;
@@ -3315,5 +3338,8 @@ ul.joomla-nav-news {
   /*navigation breakpoint*/
   #mainNavBar ul li {
     padding: 10px; } }
+@media print {
+  .no-print, .no-print * {
+    display: none !important; } }
 
 /*# sourceMappingURL=compiled.css.map */

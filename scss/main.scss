@@ -149,6 +149,11 @@ label#nonmarketing{
   top: 0;
 }
 
+#floating.fixed {
+  position: fixed;
+  top: 0;
+}
+
 ul.subjects{
   height: 67px;
   margin: 0 0 10px;
@@ -297,6 +302,14 @@ li.non-verbal.subject-box a,
 li.yellow.color-box,
 .non-verbal-background{
   background-color: $non-verbal;
+}
+
+li.print-color.color-box{
+  background-color: $print-standard;
+}
+
+li.link-color.color-box{
+  background-color: $link-color;
 }
 
 ul.joomla-nav-news{
