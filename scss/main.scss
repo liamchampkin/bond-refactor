@@ -355,8 +355,13 @@ ul.joomla-nav-news{
 #pageFooter {
   font-size: 1em;
   background-color: $footer-background;
-  padding: 10px;
+  padding: 0 0 10px;
   height: 175px;
+  min-width: 1024px;
+}
+
+.container.footer{
+  background-color: $footer-background;
 }
 
 #pageFooter #footerLeft {
