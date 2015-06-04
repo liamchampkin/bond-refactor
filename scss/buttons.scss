@@ -381,19 +381,17 @@ div.submitButtonBlue, div.submitButtonBlueSmall, div.submitButtonBlueTiny, #Kune
 }
 
 .btn-full-width {
-  margin: 10px 0 0;
-  padding: 10px 0;
-  width: 100%;
+  display: block;
 }
 
 .align-left{
   text-align: left;
 }
 
-.online-subscription-ad .btn-full-width{
+.online-subscription-ad .btn{
   font-size: 1em;
-  padding-left: 5%;
-  width: 95%;
+  margin: 16px 0 0;
+  display: block;
 }
 
 .submitButtonBlue.mockTestButton{

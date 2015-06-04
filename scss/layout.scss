@@ -49,6 +49,10 @@
   }
 }
 
+#floating{
+  margin-top: 30px;
+}
+
 #floating > ul {
   background-color: white;
   border: 1px solid #dadada;
@@ -56,6 +60,10 @@
   margin: 0 0 25px;
   padding: 2em;
   text-align: left;
+}
+
+#floating.fixed{
+  width: 17.5%;
 }
 
 .background-blue{

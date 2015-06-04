@@ -1610,6 +1610,9 @@ div.question-text .question-answer {
   .layout-container img {
     width: 100%; }
 
+#floating {
+  margin-top: 30px; }
+
 #floating > ul {
   background-color: white;
   border: 1px solid #dadada;
@@ -1617,6 +1620,9 @@ div.question-text .question-answer {
   margin: 0 0 25px;
   padding: 2em;
   text-align: left; }
+
+#floating.fixed {
+  width: 17.5%; }
 
 .background-blue {
   background-color: #00529C; }
@@ -1696,20 +1702,22 @@ a {
 a:hover {
   color: #0059b3; }
 
-.aticle-section a:focus, .example a:focus {
+.aticle-section a:focus, .example a:focus, .anchors a a:focus {
   background-color: #f1f1f1;
   outline: 3px solid #f1f1f1; }
 
 .article-section p a,
 .article-section li a,
 .example a,
-a.back-to-top {
+a.back-to-top,
+.anchors a {
   border-bottom: 1px solid #dadada;
   text-decoration: none; }
 
 .article-section p a:hover,
 .example p a:hover,
-.article-section li a:hover {
+.article-section li a:hover,
+.anchors a:hover {
   border-bottom: 1px solid #0059b3;
   text-decoration: none; }
 
@@ -2204,17 +2212,15 @@ div.submitButtonBlue, div.submitButtonBlueSmall, div.submitButtonBlueTiny, #Kune
   right: -3px; }
 
 .btn-full-width {
-  margin: 10px 0 0;
-  padding: 10px 0;
-  width: 100%; }
+  display: block; }
 
 .align-left {
   text-align: left; }
 
-.online-subscription-ad .btn-full-width {
+.online-subscription-ad .btn {
   font-size: 1em;
-  padding-left: 5%;
-  width: 95%; }
+  margin: 16px 0 0;
+  display: block; }
 
 .submitButtonBlue.mockTestButton {
   margin-right: 10px;
@@ -3243,8 +3249,7 @@ ul.joomla-nav-news {
   padding: 1em; }
   .online-advert .btn {
     border-radius: 5px;
-    border: none;
-    width: 92%; }
+    border: none; }
   .online-advert p.sub-head {
     font-weight: bold;
     font-size: 1.3em;
@@ -3296,13 +3301,23 @@ ul.joomla-nav-news {
   border-top-left-radius: 0;
   border-bottom-right-radius: 15px; }
 
-.maintenance-message-green {
-  background-color: #e9f7e9;
-  border: 1px solid #85de84;
+div[class^="maintenance-message-"], div[class*="maintenance-message-"] {
   color: black;
   font-size: 1.2em;
   margin: -28px 35px 30px;
   padding: 1em; }
+
+.maintenance-message-red {
+  background-color: #FFE3E3;
+  border: 1px solid #ffb0b0; }
+
+.maintenance-message-amber {
+  background-color: #FEF4D9;
+  border: 1px solid #fde6a7; }
+
+.maintenance-message-green {
+  background-color: #e9f7e9;
+  border: 1px solid #c4e9c4; }
 
 .article-book-cover {
   padding: 10px;

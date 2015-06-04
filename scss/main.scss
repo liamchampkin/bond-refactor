@@ -416,7 +416,6 @@ ul.joomla-nav-news{
   .btn{
     border-radius: 5px;
     border: none;
-    width: 92%;
   }
   p.sub-head{
     font-weight: bold;
@@ -485,15 +484,28 @@ ul.joomla-nav-news{
   border-top-right-radius: 0;
   border-top-left-radius: 0;
   border-bottom-right-radius: $border-radius;
+}
+
+div[class^="maintenance-message-"], div[class*="maintenance-message-"] {
+  color: black;
+  font-size: 1.2em;
+  margin: -28px 35px 30px;
+  padding: 1em;
+}
+
+.maintenance-message-red {
+  background-color: $maintenance-red;
+  border: 1px solid darken($maintenance-red, 10%);
+}
+
+.maintenance-message-amber {
+  background-color: $maintenance-amber;
+  border: 1px solid darken($maintenance-amber, 10%);
 } 
 
 .maintenance-message-green {
-    background-color: #e9f7e9;
-    border: 1px solid #85de84;
-    color: black;
-    font-size: 1.2em;
-    margin: -28px 35px 30px;
-    padding: 1em;
+  background-color: $maintenance-green;
+  border: 1px solid darken($maintenance-green, 10%);
 }
 
 .article-book-cover{

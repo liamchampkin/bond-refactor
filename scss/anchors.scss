@@ -22,7 +22,7 @@ a:hover {
   color: $link-hover;
 }
 
-.aticle-section, .example{
+.aticle-section, .example, .anchors a{
   a:focus {
     background-color: $link-focus;
     outline: 3px solid $link-focus;
@@ -33,14 +33,16 @@ a:hover {
 .article-section p a,
 .article-section li a,
 .example a,
-a.back-to-top{
+a.back-to-top,
+.anchors a{
   border-bottom: 1px solid $border-color;
   text-decoration: none;
 }
 
 .article-section p a:hover,
 .example p a:hover,
-.article-section li a:hover{
+.article-section li a:hover,
+.anchors a:hover{
   border-bottom: 1px solid $link-hover;
   text-decoration: none;
 }
