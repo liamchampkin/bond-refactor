@@ -1614,8 +1614,6 @@ div.question-text .question-answer {
   margin-top: 30px; }
 
 #floating > ul {
-  background-color: white;
-  border: 1px solid #dadada;
   list-style: outside none none;
   margin: 0 0 25px;
   padding: 2em;
@@ -3256,11 +3254,12 @@ ul.joomla-nav-news {
     border: none; }
   .online-advert p.sub-head {
     font-weight: bold;
-    font-size: 1.3em;
+    font-size: 1.5em;
     margin-bottom: 5px; }
 
 .advert-blue {
-  background-color: #00529C; }
+  background-color: #00529C;
+  border: 3px solid #00529C; }
   .advert-blue li, .advert-blue p, .advert-blue span, .advert-blue blockquote {
     color: white; }
   .advert-blue a.btn {
@@ -3278,6 +3277,10 @@ ul.joomla-nav-news {
     color: white; }
   .advert-white:hover {
     background-color: #f1f7fe; }
+
+.advert-white,
+.advert-blue {
+  border-radius: 15px; }
 
 .brand-guidelines .online-advert {
   float: left;
@@ -3310,6 +3313,9 @@ div[class^="maintenance-message-"], div[class*="maintenance-message-"] {
   font-size: 1.2em;
   margin: -28px 35px 30px;
   padding: 1em; }
+
+.brand-guidelines div[class^="maintenance-message-"], .brand-guidelines div[class*="maintenance-message-"] {
+  margin: 0px; }
 
 .maintenance-message-red {
   background-color: #FFE3E3;

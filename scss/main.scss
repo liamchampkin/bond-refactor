@@ -424,13 +424,14 @@ ul.joomla-nav-news{
   }
   p.sub-head{
     font-weight: bold;
-    font-size: 1.3em;
+    font-size: 1.5em;
     margin-bottom: 5px;
   }
 }
 
 .advert-blue{
   background-color: $blue;
+  border: 3px solid $blue;
   li,p,span,blockquote{
     color: white;
   }
@@ -454,6 +455,11 @@ ul.joomla-nav-news{
   &:hover{
     background-color: $light-blue;
   }
+}
+
+.advert-white,
+.advert-blue{
+  border-radius: 15px;
 }
 
 .brand-guidelines{
@@ -496,6 +502,12 @@ div[class^="maintenance-message-"], div[class*="maintenance-message-"] {
   font-size: 1.2em;
   margin: -28px 35px 30px;
   padding: 1em;
+}
+
+.brand-guidelines{
+  div[class^="maintenance-message-"], div[class*="maintenance-message-"] {
+    margin: 0px;
+  }
 }
 
 .maintenance-message-red {
