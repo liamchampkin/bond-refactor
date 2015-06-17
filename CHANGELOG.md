@@ -1,5 +1,5 @@
 ### Liam Bond
-* (7f64736) - adding in blue register advert
+* SHA: 7f64736 - adding in blue register advert
 
 ***
 ### UAT
